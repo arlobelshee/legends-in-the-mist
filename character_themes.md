@@ -319,7 +319,7 @@ You struggle with doors, etiquette, and patience. Civilization grates.
 
 *Spirits always want something.*
 
-**System:** Debt/Bargain
+**System:** Immediate Demands
 
 **Power Tags**
 
@@ -332,16 +332,17 @@ You struggle with doors, etiquette, and patience. Civilization grates.
 
 - Haunted
 
-**Way of Magic – Spirit Debt**\
-Each spirit you call or bargain with creates a **Debt**.
+**Way of Magic – Spirit Demands**\
+Spirits help, but they want something RIGHT NOW.
 
-- Debts are owed to specific spirits. Track who you owe.
-- Spirits may call in debts at inconvenient times, demanding favors, offerings, or actions.
-- At **Debt-3**, spirits argue over you, misbehave, or make conflicting demands.
-- Clear debt by fulfilling obligations, making offerings, or cleverly renegotiating terms.
+- When you call a spirit, it helps—but immediately demands something in return. Small help = small ask. Big help = big ask.
+- Spirit demands are weird: "Tell that person a secret," "Break something pretty," "Say my name three times," "Give me your lunch."
+- If you refuse or can't pay, the spirit gets annoyed and adds **Haunting**. Haunted spirits follow you around being distracting and unhelpful.
+- At **Haunting-3**, the spirits are SO annoying. They make noise at bad times, hide your stuff, and give bad advice loudly.
+- Clear Haunting by finally giving a spirit what it wants, or by finding something even better to offer.
 
 **Narrative Constraint**\
-Spirits remember. They talk to each other. Your reputation in the spirit world matters.
+Spirits are always watching. They have opinions about everything.
 
 ---
 
@@ -349,7 +350,7 @@ Spirits remember. They talk to each other. Your reputation in the spirit world m
 
 *You are many people.*
 
-**System:** Debt/Bargain
+**System:** Building Status (Intrinsic)
 
 **Power Tags**
 
@@ -362,16 +363,16 @@ Spirits remember. They talk to each other. Your reputation in the spirit world m
 
 - Identity Drift
 
-**Way of Magic – Masks**\
-Each persona you adopt is a **Mask** that accumulates its own **Debt**.
+**Way of Magic – Confusion**\
+Each time you change faces, add **Confusion**.
 
-- Each mask remembers what it promised and who it owes. Track debts per persona.
-- NPCs, organizations, and obligations may call in a mask's debts—even when you're wearing a different face.
-- At **Mask-3** total (across all masks), identities blur. You may slip into the wrong persona, forget which is "real," or have masks' obligations conflict.
-- Clear debt by fulfilling a mask's obligations while wearing it, or by retiring a mask entirely (but its enemies and debts don't vanish—they just become harder to resolve).
+- Confusion makes your identity slippery. You might accidentally slip into the wrong voice, use the wrong mannerisms, or call someone by a name only another persona would know.
+- At **Confusion-2**, you slip between faces without meaning to. The GM can have you accidentally shift at awkward moments.
+- At **Confusion-4**, you get stuck. Either you can't change back to your real face, or you forget which face IS your real face.
+- Clear Confusion by spending time as your true self, doing something only the real you would do.
 
 **Narrative Constraint**\
-NPCs react to who they *think* you are. Your masks have lives of their own.
+NPCs react to who they *think* you are. Try not to forget who that is.
 
 ---
 
@@ -379,7 +380,7 @@ NPCs react to who they *think* you are. Your masks have lives of their own.
 
 *Everything has a price.*
 
-**System:** Debt/Bargain
+**System:** Immediate Price
 
 **Power Tags**
 
@@ -392,16 +393,17 @@ NPCs react to who they *think* you are. Your masks have lives of their own.
 
 - Owed Favors
 
-**Way of Magic – Cosmic Debt**\
-Each deal creates **Debt** owed to the universe, fate, or mysterious creditors.
+**Way of Magic – Immediate Price**\
+When you produce something impossible, the universe takes payment NOW.
 
-- Debt accumulates as a general status. The universe tracks what you owe.
-- Creditors appear when convenient for them, not you—collectors, strange coincidences, or fate itself demanding payment.
-- At **Debt-3**, debts come due simultaneously. Multiple creditors arrive, or the universe arranges an inconvenient "payment opportunity."
-- Clear debt by fulfilling bargains, finding someone else to pay your price, or making a bigger deal that subsumes the smaller ones (though this just shifts the debt, not erases it). 
+- Every item you produce costs something immediately. Small item = small price. Big item = big price.
+- The price is never money. Something you have vanishes, transforms, or breaks. Your sword turns to flowers. Your map becomes blank. Your shoes swap left and right.
+- You can try to aim the price at something you don't care about, but the universe has a sense of humor.
+- At **Price-3** (times you've paid), the prices get ridiculous. Your voice becomes squeaky. Your hair changes color. Gravity works sideways for you.
+- Prices fade at the end of the scene, but the embarrassment lasts forever. 
 
 **Narrative Constraint**\
-The universe enforces bargains relentlessly. There is always a price.
+The universe always gets paid. It thinks irony is hilarious.
 
 ---
 
@@ -595,7 +597,7 @@ Magic responds with humor, irony, and chaos. It thinks everything is funny.
 
 *Too fast, too clever, too bound.*
 
-**System:** Debt/Bargain
+**System:** Binding Words
 
 **Power Tags**
 
@@ -608,16 +610,17 @@ Magic responds with humor, irony, and chaos. It thinks everything is funny.
 
 - Bound by Promises
 
-**Way of Magic – Fey Rules**\
-Each flashy move, boast, or accepted challenge creates a **Promise** bound by fey law.
+**Way of Magic – Binding Words**\
+Every boast, promise, or accepted challenge binds you IMMEDIATELY.
 
-- Promises are specific and literal. "I will defeat you" and "I will not lose" are different promises with different escape clauses.
-- The fey magic strengthens when you move toward fulfilling promises. It weakens when you act against them or break your word.
-- At **Promise-3**, your obligations conflict or become impossible. The fey courts take notice. Someone may offer to "help" with your burden.
-- Clear promises by fulfilling them exactly as stated, or by finding a clever interpretation that technically satisfies the letter of your word.
+- Say "I'll defeat you" and you literally cannot retreat from that fight. Say "I won't hurt you" and you physically can't attack that person.
+- Your magic is strongest when doing what you promised. It fails completely if you try to break your word.
+- Each binding adds **Bound**. At **Bound-2**, your promises start conflicting. ("I'll protect you" + "I'll defeat him" = problems when he grabs you as a shield.)
+- At **Bound-4**, you're so tangled in promises you can barely move without breaking one.
+- Promises end when fulfilled exactly ("I'll defeat you" ends when they're defeated) or when the other person releases you from it.
 
 **Narrative Constraint**\
-Social rules and wordplay carry real weight. Never say what you don't mean.
+Every word matters. The clever duelist promises only what they intended to do anyway.
 
 ---
 

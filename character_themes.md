@@ -195,7 +195,7 @@ Renaming things adds **Identity Strain** as reality pushes back against your cha
 - Each renaming adds Strain. Bigger changes (renaming a person vs. an object, changing fundamental nature vs. surface traits) add more.
 - Strain makes your own identity unstable. You may answer to the wrong name, forget your own history, or find your role shifting.
 - At **Strain-3**, your own name and role begin to shift. Others may rename you, and it sticks. You may forget who you were.
-- Clear Strain by reinforcing your true name through ritual, repetition, or having others speak it with intent.
+- Clear Strain when someone who knows the real you says your true name with feeling—or by doing something so "you" that it reminds everyone (including yourself) who you really are.
 
 **Narrative Constraint**\
 People remember what they are *called*, not what they were. Be careful what you name yourself.
@@ -257,7 +257,7 @@ The sword has emotions and preferences. Acting in harmony strengthens effects; i
 - When you act in harmony with the sword's values, your strikes and parries gain power.
 - When you act against its nature (retreating when it wants to fight, showing mercy when it wants blood), you gain Dissonance.
 - At **Dissonance-3**, the sword acts independently—singing when you need silence, refusing to cut, or striking at targets you didn't choose.
-- Clear Dissonance by giving the sword what it wants, or by spending time listening to its music and reconnecting.
+- Clear Dissonance by giving the sword what it wants—one brave act, one honorable choice, one moment of letting it sing.
 
 **Narrative Constraint**\
 The blade reacts to emotions, not tactics. It has opinions about everyone you meet.
@@ -286,7 +286,7 @@ Commands that go against the beast's instincts generate **Strain**.
 
 - The beast has its own desires: hunt, protect territory, avoid fire, flee from certain predators. Commands aligned with instinct cost nothing.
 - Commands that fight instinct (hold still when threatened, attack something terrifying, ignore prey) add Strain.
-- Strain can be cleared by letting the beast act freely—hunting, playing, resting, or doing what it wants for a while.
+- Clear Strain by letting the beast do ONE thing it really wants—chase something, eat something, scare someone, take a nap in the sun.
 - At **Strain-3**, the beast follows instinct instead of orders. It may flee, attack the wrong target, or refuse to move.
 
 **Narrative Constraint**\
@@ -470,7 +470,7 @@ Shadow use adds **Fading** as you become less real, more shadow.
 - As Fading increases, you slip through cracks, blend into darkness, and become difficult to harm.
 - But Fading also makes it harder for allies to help you, for healing to work, for people to notice you exist.
 - At **Fading-4**, you are difficult to affect—or assist. Allies' aid barely reaches you. You may be forgotten mid-conversation.
-- Clear Fading by spending time in bright light, engaging with the physical world, or having someone call you back by name with genuine emotion.
+- Clear Fading by stepping into bright light, touching something real and solid, or having someone grab you and yell your name like they mean it.
 
 **Narrative Constraint**\
 You risk losing touch with the physical world. Sometimes people look right through you.
@@ -656,7 +656,7 @@ You can separate your shadow from your body, operating as two entities.
 - Each separation adds **Drift**. The longer and further apart you operate, the more Drift accumulates.
 - Bright light forces your shadow back to your body and may cause pain or disorientation.
 - At **Drift-3**, body and shadow act at cross purposes. Your shadow may pursue its own goals, hide information from you, or refuse to rejoin.
-- Clear Drift by reuniting in darkness and remaining whole for a time, or by feeding your shadow something it wants (fear, darkness, secrets).
+- Clear Drift by reuniting in darkness and doing something together—or by feeding your shadow something it wants (scaring someone, learning a secret, swallowing a light source).
 
 **Narrative Constraint**\
 Light disrupts your cohesion and control. Your shadow has been learning things without you.

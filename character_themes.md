@@ -16,12 +16,18 @@ Each theme uses one of these underlying systems:
 
 ## Building Status
 
-A status accumulates on you or the environment. You get stronger as it builds. At threshold, something dramatic happens.
+A status accumulates on you or the environment. At threshold, something dramatic happens.
 
-- **Intrinsic Building:** Status accumulates on you. At threshold, you transform or lose control in a dramatic way.
-- **Extrinsic Building:** Status accumulates on the environment. At threshold, the environment changes dramatically. You may choose to contain (take status on yourself) or redirect (push to environment).
+- **Intrinsic Building:** Status accumulates on you. At threshold (4), you gain dramatic power with constraints. At your limit (5), you transform—incredibly powerful but no longer fully yourself.
+- **Extrinsic Building:** Status accumulates on the environment as story tags. At threshold (4), the environment transforms and becomes its own challenge.
 
-**Standard Rule:** Gain 1 status per power tag you use from this theme. Threshold is 4 unless stated otherwise.
+**Standard Rule:** Gain 1 status per power tag you use from this theme.
+
+## Opposing Status
+
+Two poles exist in tension. Using one builds that status; the opposite cancels it out. Both poles have uses—the question is which dominates the scene.
+
+**Standard Rule:** Statuses on the same axis cancel. Remove tiers from the greater equal to the tier of the lesser.
 
 ## Pet/Harmony
 
@@ -46,12 +52,6 @@ When you use magic, something demands payment RIGHT NOW. It wants a weird favor 
 Your words have power and bind you the moment you speak them. But they also make you incredibly strong when you're keeping your word.
 
 **Standard Rule:** Each promise adds 1 Bound. While keeping a promise, your magic is stronger. At Bound-4, your promises conflict and tangle you up.
-
-## Pool/Spend
-
-A pool accumulates as you use magic. You can spend from the pool to do awesome bonus effects.
-
-**Standard Rule:** Gain 1 pool per power tag used. Spend pool for bonus effects (1 pool = 1 minor twist, 2 pool = 1 major twist). At Pool-5, the GM can spend from your pool instead.
 
 ## Fragmentation
 
@@ -87,9 +87,10 @@ Magic only works when you commit to a position, person, or action. Your protecti
 **Way of Magic – Rage**
 You gain 1 **Rage** each time you use a Ragebound power tag, get hurt, or get insulted.
 
-- **Rage-1 to 3:** Add your Rage as bonus Power to physical attacks and intimidation.
-- **Rage-4 (Threshold):** You MUST attack the biggest threat you can see. You're incredibly powerful but can't hold back. Your attacks this scene are devastating.
-- **Clear Rage:** Reduce by 1 when you take a breath and someone calms you, or reduce to 0 when combat ends and you rest.
+- **Rage-1 to 3:** Rage adds to physical attacks and intimidation. Rage hinders careful, patient, or gentle actions.
+- **Rage-4 (Threshold):** You MUST attack the biggest threat you can see. Your attacks are devastating but you can't hold back or be subtle.
+- **Rage-5 (Limit):** You become the Rage. Unstoppable fury—you cannot distinguish friend from foe, only threats and obstacles.
+- **Clear Rage:** Reduce by 1 when combat ends and you catch your breath, or when someone you trust calms you.
 
 **Narrative Constraint**
 Enemies will try to provoke you. Allies need to point you at the right targets.
@@ -100,7 +101,7 @@ Enemies will try to provoke you. Allies need to point you at the right targets.
 
 *Magic misbehaves around you.*
 
-**System:** Pool/Spend
+**System:** Opposing Status (Chaos/Order)
 
 **Power Tags**
 
@@ -114,14 +115,15 @@ Enemies will try to provoke you. Allies need to point you at the right targets.
 - Backfires
 
 **Way of Magic – Chaos**
-You gain 1 **Chaos** each time you use a Chaos Channeler power tag.
+Each time you use a Chaos Channeler power tag, add 1 **Chaos** to the environment.
 
-- **Spend Chaos:** Spend 1 to add a weird helpful twist to any action (yours or an ally's). Spend 2 for a major twist that changes the whole situation.
-- **Chaos-5 (Threshold):** The GM can spend from your Chaos pool to add weird twists to the scene—helpful, hindering, or just strange.
-- **Clear Chaos:** Reduce by 2 when you intentionally do something boring and predictable.
+- **Chaos status:** Helps any action that embraces randomness, improvisation, or the unexpected. Hinders any action that requires precision, planning, or reliability.
+- **Chaos-4 (Threshold):** Reality gets weird. The GM gains story tags representing the strangeness: *gravity suggestions*, *doors go elsewhere*, *time hiccups*. These affect everyone.
+- **Order opposes Chaos:** Deliberate, predictable actions (following a plan exactly, doing things by the book) add Order to the environment. Order and Chaos cancel each other.
+- **Clear Chaos:** Chaos naturally reduces by 1 each scene, or when someone imposes structure and routine.
 
 **Narrative Constraint**
-Magic responds to drama and stress. The weirder things get, the more you can do.
+The weirder things get, the more you thrive—but your allies might not.
 
 ---
 
@@ -129,7 +131,7 @@ Magic responds to drama and stress. The weirder things get, the more you can do.
 
 *Cold is control.*
 
-**System:** Building Status (Extrinsic)
+**System:** Opposing Status (Cold/Heat)
 
 **Power Tags**
 
@@ -143,13 +145,12 @@ Magic responds to drama and stress. The weirder things get, the more you can do.
 - Rigid and Brittle
 
 **Way of Magic – Cold**
-You create 1 **Cold** (on environment or yourself) each time you use a Cryomancer power tag.
+Each time you use a Cryomancer power tag, add 1 **Cold** to the environment.
 
-- **Cold-1 to 3:** The Cold status adds to actions involving control, slowing enemies, or creating barriers.
-- **Cold-4 (Threshold):**
-  - *Environment:* Everything becomes ice—brittle, silent, and slippery. Movement is difficult for everyone except you.
-  - *You:* You become utterly focused. You cannot change your mind or adapt—pick your plan and execute it no matter what.
-- **Clear Cold:** Reduce by 1 per round when no ice magic is used. Fire or warmth clears 2.
+- **Cold status:** Helps actions involving control, barriers, slowing enemies, and precision. Hinders actions requiring speed, flexibility, or warmth.
+- **Cold-4 (Threshold):** The environment freezes. The GM gains story tags: *treacherous ice*, *bitter silence*, *brittle surfaces*. Movement becomes difficult for everyone except you.
+- **Heat opposes Cold:** Fire magic, warmth sources, or intense activity add Heat to the environment. Heat and Cold cancel each other.
+- **Clear Cold:** Cold naturally reduces by 1 each scene, or faster when warmth is introduced.
 
 **Narrative Constraint**
 The battlefield grows silent and still. Warmth becomes precious.
@@ -174,13 +175,14 @@ The battlefield grows silent and still. Warmth becomes precious.
 - Elemental Mindset
 
 **Way of Magic – Saturation**
-You create 1 **Saturation** (on environment or yourself) each time you use an Elemental Savant power tag.
+Each time you use an Elemental Savant power tag, add 1 **Saturation** to the environment (or contain it on yourself).
 
-- **Saturation-1 to 3:** Your element fills the area. The Saturation status adds to any action that uses your element.
+- **Saturation status:** The environment gains story tags matching your element. Saturation helps actions using your element; hinders actions opposing it.
 - **Saturation-4 (Threshold):**
-  - *Environment:* Your element dominates—raging fire, howling wind, churning water, living stone. It becomes its own challenge.
-  - *You:* You partially transform into your element. Incredibly powerful, but you think like your element (fire wants to burn, water wants to flow, etc.).
-- **Clear Saturation:** Reduce by 1 when the opposite element appears or when you spend a round not using your element.
+  - *Environment:* Your element dominates. The GM gains major story tags: *living stone walls*, *howling wind tunnels*, *churning water fills the room*. It becomes its own challenge.
+  - *You (if contained):* You partially transform into your element. Add +2 Power to elemental actions, but you think like your element.
+- **Saturation-5 (Your Limit):** Full elemental transformation. Incredibly powerful, but you ARE your element now.
+- **Clear Saturation:** Reduce by 1 when the opposite element appears or after a scene without using your element.
 
 **Narrative Constraint**
 The environment increasingly acts like your element. Everything changes to match you.
@@ -207,9 +209,10 @@ The environment increasingly acts like your element. Everything changes to match
 **Way of Magic – Identity Strain**
 You gain 1 **Strain** when you rename something. Bigger changes (a person's nature vs. an object's appearance) may add 2.
 
-- **Strain-1 to 3:** Your renamings work perfectly. The Strain status adds to actions where names and identity matter.
-- **Strain-4 (Threshold):** Your own name becomes unstable. Others can rename YOU, and it works. You might forget your own name or answer to the wrong one.
-- **Clear Strain:** Reduce by 1 when someone calls you by your true name and means it, or when you do something that is SO you that everyone remembers who you really are.
+- **Strain-1 to 3:** Your renamings work perfectly. Strain adds to actions where names and identity matter.
+- **Strain-4 (Threshold):** Your own name becomes unstable. Others can rename YOU, and it works. You might answer to the wrong name or forget details about yourself.
+- **Strain-5 (Limit):** You become what others name you. Your identity is completely fluid—powerful, but you are whoever the last person said you were.
+- **Clear Strain:** Reduce by 1 when someone calls you by your true name and means it, or when you do something unmistakably YOU.
 
 **Narrative Constraint**
 People remember what they are *called*, not what they were. Names have power over everyone—including you.
@@ -220,7 +223,7 @@ People remember what they are *called*, not what they were. Names have power ove
 
 *Music shapes space and emotion.*
 
-**System:** Building Status (Extrinsic)
+**System:** Opposing Status (Fast Tempo/Slow Tempo)
 
 **Power Tags**
 
@@ -234,11 +237,12 @@ People remember what they are *called*, not what they were. Names have power ove
 - Needs to Be Heard
 
 **Way of Magic – Tempo**
-Your music creates **Tempo** in the environment (Fast or Slow) equal to the power tags you use.
+Your music creates **Tempo** in the environment. Choose Fast or Slow each time you use a Songweaver power tag.
 
-- **Fast Tempo:** Adds to quick actions, attacks, and chaos. Subtracts from careful or calm actions.
-- **Slow Tempo:** Adds to calm actions, defense, and control. Subtracts from quick or aggressive actions.
-- **Tempo-4 (Threshold):** The Tempo takes over the scene. At Fast-4, everyone acts in a frenzy. At Slow-4, time seems to crawl and rushing is nearly impossible.
+- **Fast Tempo:** Helps quick actions, attacks, and bold moves. Hinders careful, calm, or patient actions.
+- **Slow Tempo:** Helps calm actions, defense, and careful work. Hinders quick or aggressive actions.
+- **Tempo-4 (Threshold):** The Tempo dominates the scene. At Fast-4, everyone acts in a frenzy—story tags like *everything accelerates*, *no time to think*. At Slow-4, time crawls—*movements drag*, *thoughts stretch*.
+- **Fast and Slow oppose:** They cancel each other out. You (or others) can shift the tempo by playing the opposite.
 - **Clear Tempo:** Tempo naturally reduces by 1 each round. Complete silence clears all Tempo.
 
 **Narrative Constraint**
@@ -326,8 +330,9 @@ The beast remembers who hurt it and who fed it. It has feelings about everyone.
 **Way of Magic – Ferality**
 You gain 1 **Ferality** each time you use a Beast-Hearted power tag, hunt, or fight.
 
-- **Ferality-1 to 3:** Add your Ferality as bonus Power to physical actions, senses, and intimidation.
-- **Ferality-4 (Threshold):** You act on instinct. You're incredibly powerful but think like an animal—chase what runs, fight what challenges you, protect your pack.
+- **Ferality-1 to 3:** Ferality adds to physical actions, senses, and intimidation. Ferality hinders patience, etiquette, and fine manipulation.
+- **Ferality-4 (Threshold):** You act on instinct. Incredibly powerful—but you think like an animal. Chase what runs, fight what challenges you, protect your pack.
+- **Ferality-5 (Limit):** Full beast. You ARE the animal now. Immense power, but human concerns and plans are gone.
 - **Clear Ferality:** Reduce by 1 when you do something civilized (share food politely, have a calm conversation, wait patiently).
 
 **Narrative Constraint**
@@ -385,8 +390,9 @@ Spirits are always watching. They have opinions about everything and everyone.
 **Way of Magic – Confusion**
 You gain 1 **Confusion** each time you change faces or use a Doppelganger power tag.
 
-- **Confusion-1 to 3:** Your disguises are perfect. The Confusion status adds to any action where being someone else helps.
-- **Confusion-4 (Threshold):** You get stuck or slip. Either you can't change back to your real face, or you shift at the worst possible moment, or you forget which face is really yours.
+- **Confusion-1 to 3:** Your disguises are perfect. Confusion adds to any action where being someone else helps.
+- **Confusion-4 (Threshold):** You slip between faces without meaning to. The GM can have you accidentally shift at awkward moments, or use the wrong voice.
+- **Confusion-5 (Limit):** You forget which face is real. You might BE the person you're imitating—their memories, their loyalties, their fears.
 - **Clear Confusion:** Reduce by 1 when you spend time as your true self, doing something only the real you would do.
 
 **Narrative Constraint**
@@ -458,7 +464,7 @@ More reflections means more options—but also more targets and more confusion.
 
 *You are halfway gone.*
 
-**System:** Building Status (Intrinsic)
+**System:** Opposing Status (Fading/Presence)
 
 **Power Tags**
 
@@ -472,14 +478,16 @@ More reflections means more options—but also more targets and more confusion.
 - Light Burns
 
 **Way of Magic – Fading**
-You gain 1 **Fading** each time you use a Shadowbound power tag.
+Each time you use a Shadowbound power tag, add 1 **Fading** to yourself.
 
-- **Fading-1 to 3:** You're harder to see and harder to hit. Add your Fading to stealth, escape, and defense in darkness.
-- **Fading-4 (Threshold):** You're almost a ghost. Incredibly hard to hurt—but also hard to help. Allies' aid barely reaches you. People might forget you're there mid-conversation.
-- **Clear Fading:** Reduce by 1 when you step into bright light, touch something solid, or when someone grabs you and says your name like they mean it.
+- **Fading status:** Helps stealth, escape, and slipping through. Hinders being noticed, getting help, and affecting the physical world.
+- **Fading-4 (Threshold):** You're barely there. Incredibly hard to hurt—but allies' aid barely reaches you. People forget you're there mid-conversation. Story tags: *half-real*, *slipping away*.
+- **Fading-5 (Limit):** You become shadow. Immensely powerful in darkness, but sunlight is agony and you may not be able to return.
+- **Presence opposes Fading:** Bright light, physical contact, or someone calling your name with feeling adds Presence. Presence and Fading cancel each other.
+- **Clear Fading:** Reduce by 1 when you step into bright light or when someone grabs you and says your name like they mean it.
 
 **Narrative Constraint**
-Shadows are your home. But the more you fade, the less real you become.
+Shadows are your home. But the more you fade, the less real you become. Your allies can anchor you.
 
 ---
 
@@ -501,10 +509,10 @@ Shadows are your home. But the more you fade, the less real you become.
 - Big Target
 
 **Way of Magic – Shockwaves**
-You create 1 **Shockwaves** in the environment each time you use a Blood of Giants power tag.
+Each time you use a Blood of Giants power tag, add 1 **Shockwaves** to the environment.
 
-- **Shockwaves-1 to 3:** The ground trembles with your power. Add Shockwaves to intimidation and any action where raw power matters.
-- **Shockwaves-4 (Threshold):** The environment becomes unstable. Structures crack, floors collapse, things fall. Everyone has trouble standing—except you.
+- **Shockwaves status:** The ground trembles. Shockwaves add to intimidation and raw power actions. Shockwaves hinder balance, precision, and delicate work—for everyone.
+- **Shockwaves-4 (Threshold):** The environment becomes unstable. The GM gains story tags: *cracking floor*, *falling debris*, *nothing stands steady*. Everyone has trouble standing—except you.
 - **Clear Shockwaves:** Reduce by 1 each round when you're not stomping around. Moving to a new area resets to 0.
 
 **Narrative Constraint**
@@ -546,7 +554,7 @@ You cannot save everyone at once. But what you commit to, nothing can touch.
 
 *Fire always wants more.*
 
-**System:** Building Status (Extrinsic)
+**System:** Opposing Status (Heat/Cold)
 
 **Power Tags**
 
@@ -559,12 +567,13 @@ You cannot save everyone at once. But what you commit to, nothing can touch.
 
 - Everything Burns
 
-**Way of Magic – Escalation**
-You create 1 **Escalation** in the environment each time you use a Pyromancer power tag.
+**Way of Magic – Heat**
+Each time you use a Pyromancer power tag, add 1 **Heat** to the environment.
 
-- **Escalation-1 to 3:** Fire spreads and builds. Add Escalation to fire attacks and intimidation. You're immune to your own flames.
-- **Escalation-4 (Threshold):** Wildfire. The fire becomes its own challenge—spreading, consuming, cutting off escape routes. Your allies are NOT immune.
-- **Clear Escalation:** Reduce by 1 when fires are put out, or when you move to an unburned area. Actively smothering flames clears 2.
+- **Heat status:** Fire spreads and builds. Heat helps fire attacks, intimidation, and destruction. Heat hinders precision, patience, and anything that doesn't like being on fire.
+- **Heat-4 (Threshold):** Wildfire. The GM gains story tags: *everything burning*, *smoke everywhere*, *escape routes cut off*. The fire is its own challenge. You're immune; your allies aren't.
+- **Cold opposes Heat:** Ice magic, water, or smothering adds Cold. Heat and Cold cancel each other.
+- **Clear Heat:** Reduce by 1 when fires are put out or when you move to an unburned area.
 
 **Narrative Constraint**
 What you burn stays burned. Fire reshapes the battlefield permanently.
@@ -575,7 +584,7 @@ What you burn stays burned. Fire reshapes the battlefield permanently.
 
 *Magic loves a prank.*
 
-**System:** Pool/Spend
+**System:** Building Status (Extrinsic)
 
 **Power Tags**
 
@@ -589,14 +598,14 @@ What you burn stays burned. Fire reshapes the battlefield permanently.
 - Unreliable
 
 **Way of Magic – Mischief**
-You gain 1 **Mischief** each time you use a Trick-Spark power tag.
+Each time you use a Trick-Spark power tag, add 1 **Mischief** to the environment.
 
-- **Spend Mischief:** Spend 1 to make something "coincidentally" go your way (a guard trips, a door swings open, someone sneezes at the perfect moment). Spend 2 for a major prank that changes the situation.
-- **Mischief-5 (Threshold):** The GM can spend from your Mischief pool. Magic is now pranking EVERYONE—including you and your friends.
-- **Clear Mischief:** Reduce by 2 when you let magic play harmlessly—small illusions, sparkles, harmless pranks that entertain without stakes.
+- **Mischief status:** The environment gains story tags representing pranks and coincidences: *slippery floors*, *things in wrong places*, *convenient distractions*. Mischief helps creative improvisation and trickery. Mischief hinders serious, careful, or dignified actions—for everyone.
+- **Mischief-4 (Threshold):** Magic is pranking EVERYONE. The GM gains major story tags: *nothing is where it should be*, *gravity is a suggestion*, *cause and effect are negotiable*. The pranks aren't malicious, but they're relentless.
+- **Clear Mischief:** Reduce by 1 when you let magic play harmlessly—small illusions, sparkles, harmless pranks with no stakes.
 
 **Narrative Constraint**
-Magic thinks everything is funny. The twists work, but with a punchline.
+Magic thinks everything is funny. You thrive in chaos; others might not.
 
 ---
 

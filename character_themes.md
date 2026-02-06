@@ -239,13 +239,16 @@ Silence, noise, and interruptions matter deeply.
 - The Sword Has Opinions
 
 **Way of Magic – Harmony**\
-Acting in harmony with the sword strengthens effects.\
-Ignoring it builds **Dissonance**.
+The sword has emotions and preferences. Acting in harmony strengthens effects; ignoring it builds **Dissonance**.
 
-- At **Dissonance-3**, the sword acts independently.
+- The sword responds to emotional truth, not tactical sense. It loves courage, hates cowardice, and has strong feelings about honor.
+- When you act in harmony with the sword's values, your strikes and parries gain power.
+- When you act against its nature (retreating when it wants to fight, showing mercy when it wants blood), you gain Dissonance.
+- At **Dissonance-3**, the sword acts independently—singing when you need silence, refusing to cut, or striking at targets you didn't choose.
+- Clear Dissonance by giving the sword what it wants, or by spending time listening to its music and reconnecting.
 
 **Narrative Constraint**\
-The blade reacts to emotions, not tactics.
+The blade reacts to emotions, not tactics. It has opinions about everyone you meet.
 
 ---
 
@@ -267,12 +270,15 @@ The blade reacts to emotions, not tactics.
 - The Beast Is Willful
 
 **Way of Magic – Control Strain**\
-Commands generate **Strain**.
+Commands that go against the beast's instincts generate **Strain**.
 
-- At **Strain-3**, the beast follows instinct instead of orders.
+- The beast has its own desires: hunt, protect territory, avoid fire, flee from certain predators. Commands aligned with instinct cost nothing.
+- Commands that fight instinct (hold still when threatened, attack something terrifying, ignore prey) add Strain.
+- Strain can be cleared by letting the beast act freely—hunting, playing, resting, or doing what it wants for a while.
+- At **Strain-3**, the beast follows instinct instead of orders. It may flee, attack the wrong target, or refuse to move.
 
 **Narrative Constraint**\
-The beast reacts emotionally to fear, pain, and threats.
+The beast reacts emotionally to fear, pain, and threats. It remembers who hurt it.
 
 ---
 

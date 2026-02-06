@@ -48,25 +48,6 @@
             font-weight: bold;
             text-align: center;
             padding: 6px 2px;
-            border-bottom: 1px solid #ccc;
-        }
-
-        .diamond-left {
-            position: absolute;
-            left: 2px;
-            top: 50%;
-            transform: translateY(-50%);
-            color: #5a4a3a;
-            font-size: 7pt;
-        }
-
-        .diamond-right {
-            position: absolute;
-            right: 2px;
-            top: 50%;
-            transform: translateY(-50%);
-            color: #5a4a3a;
-            font-size: 7pt;
         }
 
         .power-tags {
@@ -77,25 +58,14 @@
         }
 
         .power-tag {
-            position: relative;
             text-align: center;
-            padding: 5px 2px 5px 14px;
-            border-bottom: 1px solid #d5cbb8;
+            padding: 5px 2px;
             font-size: 9pt;
-        }
-
-        .power-tag .diamond {
-            position: absolute;
-            left: 4px;
-            top: 50%;
-            transform: translateY(-50%);
-            color: #5a4a3a;
-            font-size: 6pt;
         }
 
         .weakness-tag {
             position: absolute;
-            top: 172px;
+            top: 168px;
             left: 8px;
             right: 8px;
             text-align: center;
@@ -105,46 +75,11 @@
             color: #5a4a3a;
         }
 
-        .trackers {
-            position: absolute;
-            top: 200px;
-            left: 8px;
-            right: 8px;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .tracker {
-            display: flex;
-            align-items: center;
-            gap: 2px;
-        }
-
-        .tracker-dots {
-            display: flex;
-            gap: 2px;
-        }
-
-        .dot {
-            width: 8px;
-            height: 8px;
-            border: 1px solid #8b7355;
-            background: transparent;
-        }
-
-        .tracker-label {
-            font-size: 5pt;
-            text-transform: uppercase;
-            color: #666;
-            letter-spacing: 0.5px;
-        }
-
         .quest-section {
             position: absolute;
-            top: 228px;
+            top: 222px;
             left: 6px;
             right: 6px;
-            bottom: 58px;
             padding: 8px 6px;
         }
 
@@ -154,37 +89,6 @@
             color: #4a3c28;
             text-align: center;
             line-height: 1.3;
-        }
-
-        .improvements-section {
-            position: absolute;
-            bottom: 10px;
-            left: 8px;
-            right: 8px;
-        }
-
-        .improvements-header {
-            text-align: center;
-            font-size: 5pt;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: #666;
-            margin-bottom: 4px;
-        }
-
-        .improvement-dots {
-            display: flex;
-            justify-content: flex-start;
-            gap: 3px;
-            padding-left: 2px;
-        }
-
-        .improvement-dot {
-            width: 10px;
-            height: 10px;
-            border: 1px solid #8b7355;
-            border-radius: 50%;
-            background: transparent;
         }
 
         @media print {
@@ -214,26 +118,8 @@
                 <div class="power-tag">Intimidating Presence</div>
             </div>
             <div class="weakness-tag">Cannot Back Down</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"Your fury is supernatural. What drives your rage? What would calm it forever?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 
@@ -248,26 +134,8 @@
                 <div class="power-tag">Spell Twist</div>
             </div>
             <div class="weakness-tag">Backfires</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"Magic misbehaves around you. Do you embrace the chaos or struggle to control it?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 
@@ -282,26 +150,8 @@
                 <div class="power-tag">Frozen Armor</div>
             </div>
             <div class="weakness-tag">Rigid and Brittle</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"Cold is control. What do you fear losing control of? What warmth do you secretly long for?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 
@@ -316,26 +166,8 @@
                 <div class="power-tag">Environmental Control</div>
             </div>
             <div class="weakness-tag">Elemental Mindset</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"One element, taken too far. Which element defines you? What would make you let it consume you?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 
@@ -350,26 +182,8 @@
                 <div class="power-tag">Naming Curse</div>
             </div>
             <div class="weakness-tag">Names Stick</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"Names define reality. What name do you fear being called? What name do you long to earn?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 
@@ -384,26 +198,8 @@
                 <div class="power-tag">Sonic Pulse</div>
             </div>
             <div class="weakness-tag">Needs to Be Heard</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"Music shapes space and emotion. What song haunts you? What melody are you searching for?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 
@@ -418,26 +214,8 @@
                 <div class="power-tag">Resonant Cleave</div>
             </div>
             <div class="weakness-tag">The Sword Has Opinions</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"The sword sings. What does it want? Do you serve the blade, or does it serve you?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 
@@ -452,26 +230,8 @@
                 <div class="power-tag">Devastating Charge</div>
             </div>
             <div class="weakness-tag">The Beast Is Willful</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"You command a massive beast. Is it a partner or a tool? What would make you set it free?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 
@@ -486,26 +246,8 @@
                 <div class="power-tag">Predator's Instinct</div>
             </div>
             <div class="weakness-tag">Easily Provoked</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"You are not fully human anymore. What beast lives in your heart? What keeps you human?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 
@@ -520,26 +262,8 @@
                 <div class="power-tag">Channel Power</div>
             </div>
             <div class="weakness-tag">Haunted</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"Spirits always want something. What spirit follows you? What do you owe the unseen world?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 
@@ -554,26 +278,8 @@
                 <div class="power-tag">Voice and Mannerisms</div>
             </div>
             <div class="weakness-tag">Identity Drift</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"You are many people. Who is the real you? Whose face do you fear wearing?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 
@@ -588,26 +294,8 @@
                 <div class="power-tag">Unexpected Inventory</div>
             </div>
             <div class="weakness-tag">Owed Favors</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"Everything has a price. What price would you refuse to pay? What deal haunts you?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 
@@ -622,26 +310,8 @@
                 <div class="power-tag">Mirror Step</div>
             </div>
             <div class="weakness-tag">Fragile Anchors</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"You are never where you seem. Which reflection is the real you? What do the mirrors show?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 
@@ -656,26 +326,8 @@
                 <div class="power-tag">Cloak of Gloom</div>
             </div>
             <div class="weakness-tag">Light Burns</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"You are halfway gone. What pulls you toward the darkness? What keeps you in the light?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 
@@ -690,26 +342,8 @@
                 <div class="power-tag">Towering Presence</div>
             </div>
             <div class="weakness-tag">Big Target</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"Ancient power lives in your body. What giant blood runs in your veins? What do you tower over?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 
@@ -724,26 +358,8 @@
                 <div class="power-tag">Brace for Impact</div>
             </div>
             <div class="weakness-tag">Slow to Reposition</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"You decide where the line is. What will you never let pass? What would make you abandon your post?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 
@@ -758,26 +374,8 @@
                 <div class="power-tag">Explosive Spread</div>
             </div>
             <div class="weakness-tag">Everything Burns</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"Fire always wants more. What are you afraid to burn? What would you burn the world to protect?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 
@@ -792,26 +390,8 @@
                 <div class="power-tag">Spell Pranks</div>
             </div>
             <div class="weakness-tag">Unreliable</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"Magic loves a prank. What's the best joke you ever played? What prank went too far?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 
@@ -826,26 +406,8 @@
                 <div class="power-tag">Duelist's Precision</div>
             </div>
             <div class="weakness-tag">Bound by Promises</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"Too fast, too clever, too bound. What promise weighs heaviest? What vow would you break?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 
@@ -860,26 +422,8 @@
                 <div class="power-tag">Slip Through Cracks</div>
             </div>
             <div class="weakness-tag">Tethered to Darkness</div>
-            <div class="trackers">
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Experience</span>
-                </div>
-                <div class="tracker">
-                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-                    <span class="tracker-label">Decay</span>
-                </div>
-            </div>
             <div class="quest-section">
                 <div class="quest-text">"You are a creature of darkness. What secrets has your shadow learned? Can you trust it?"</div>
-            </div>
-            <div class="improvements-section">
-                <div class="improvements-header">Theme Improvements</div>
-                <div class="improvement-dots">
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                    <div class="improvement-dot"></div>
-                </div>
             </div>
         </div>
 

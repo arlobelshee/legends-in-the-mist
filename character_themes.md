@@ -419,12 +419,16 @@ The universe enforces bargains relentlessly. There is always a price.
 - Fragile Anchors
 
 **Way of Magic – Fragmentation**\
-Each trick creates a **Reflection**.
+Each trick creates a **Reflection**—a semi-real copy that exists in mirrors, water, or polished surfaces.
 
-- At 3+, misplacements and mistakes occur.
+- Reflections persist until dismissed or destroyed. Each active reflection adds to your Reflection count.
+- You can see through reflections, swap places with them, or have them take actions (though they're limited to what a reflection could do).
+- Reflections can be targeted and destroyed. Breaking the surface they inhabit shatters them.
+- At **Reflection-3**, misplacements occur. You may swap when you didn't intend to, reflections may act on their own, or you may forget which one is "real."
+- Clear by dismissing reflections or consolidating back into your single true self.
 
 **Narrative Constraint**\
-Reflections may act independently or be targeted.
+Reflections may act independently or be targeted. Enemies learn to shatter mirrors.
 
 ---
 
@@ -613,13 +617,16 @@ Social rules and wordplay carry real weight. Never say what you don't mean.
 - Tethered to Darkness
 
 **Way of Magic – Separation**\
-You can separate from your shadow or body.
+You can separate your shadow from your body, operating as two entities.
 
-- Each separation adds **Drift**.
-- At **Drift-3**, body and shadow act at cross purposes.
+- When separated, your shadow can scout, manipulate objects, or attack from darkness while your body acts elsewhere.
+- Each separation adds **Drift**. The longer and further apart you operate, the more Drift accumulates.
+- Bright light forces your shadow back to your body and may cause pain or disorientation.
+- At **Drift-3**, body and shadow act at cross purposes. Your shadow may pursue its own goals, hide information from you, or refuse to rejoin.
+- Clear Drift by reuniting in darkness and remaining whole for a time, or by feeding your shadow something it wants (fear, darkness, secrets).
 
 **Narrative Constraint**\
-Light disrupts your cohesion and control.
+Light disrupts your cohesion and control. Your shadow has been learning things without you.
 
 ---
 

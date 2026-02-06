@@ -22,63 +22,62 @@
         }
 
         .print-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 15px;
-            max-width: 10.5in;
-            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
         }
 
         .theme-card {
-            width: 3.3in;
-            height: 3.9in;
+            width: 2in;
+            height: 5in;
             background-image: url('theme background.png');
             background-size: 100% 100%;
             background-repeat: no-repeat;
             position: relative;
             page-break-inside: avoid;
-            font-size: 7pt;
+            font-size: 6pt;
         }
 
         .card-header {
             position: absolute;
             top: 3px;
-            left: 6px;
-            right: 6px;
+            left: 4px;
+            right: 4px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            font-size: 5pt;
+            font-size: 4pt;
             text-transform: uppercase;
             font-weight: bold;
         }
 
         .theme-type {
             background: #d4c5a9;
-            padding: 1px 4px;
+            padding: 1px 2px;
             border: 1px solid #8b7355;
-            font-size: 5pt;
+            font-size: 4pt;
         }
 
         .might-level {
             background: #c9a86c;
-            padding: 1px 4px;
+            padding: 1px 2px;
             border: 1px solid #8b7355;
-            font-size: 5pt;
+            font-size: 4pt;
             color: #4a3c28;
         }
 
         .tags-section {
             position: absolute;
-            top: 18px;
-            left: 8px;
-            right: 8px;
-            height: 115px;
+            top: 16px;
+            left: 4px;
+            right: 4px;
+            height: 140px;
         }
 
         .tags-header {
             text-align: center;
-            font-size: 5pt;
+            font-size: 4pt;
             text-transform: uppercase;
             letter-spacing: 0.5px;
             color: #666;
@@ -86,46 +85,47 @@
         }
 
         .title-tag {
-            font-size: 10pt;
+            font-size: 8pt;
             font-weight: bold;
             text-align: center;
-            padding: 4px 2px;
+            padding: 4px 1px;
             border-bottom: 1px solid #ccc;
             margin-bottom: 1px;
+            line-height: 1.1;
         }
 
         .title-tag::before {
             content: '\u25C6';
             color: #8b7355;
-            margin-right: 4px;
-            font-size: 6pt;
+            margin-right: 2px;
+            font-size: 5pt;
         }
 
         .title-tag::after {
             content: '\u25C7';
             color: #8b7355;
-            margin-left: 4px;
-            font-size: 6pt;
+            margin-left: 2px;
+            font-size: 5pt;
         }
 
         .power-tag {
             text-align: center;
-            padding: 2px;
+            padding: 3px 1px;
             border-bottom: 1px solid #e0d5c5;
-            font-size: 7pt;
+            font-size: 6pt;
         }
 
         .power-tag::before {
             content: '\u25C6';
             color: #8b7355;
-            margin-right: 4px;
-            font-size: 5pt;
+            margin-right: 2px;
+            font-size: 4pt;
         }
 
         .weakness-tag {
             text-align: center;
-            padding: 2px;
-            font-size: 7pt;
+            padding: 3px 1px;
+            font-size: 6pt;
             color: #8b4513;
             font-style: italic;
         }
@@ -133,29 +133,29 @@
         .weakness-tag::before {
             content: '\u25C7';
             color: #8b4513;
-            margin-right: 4px;
-            font-size: 5pt;
+            margin-right: 2px;
+            font-size: 4pt;
         }
 
         .trackers {
             position: absolute;
-            top: 136px;
-            left: 8px;
-            right: 8px;
+            top: 160px;
+            left: 4px;
+            right: 4px;
             display: flex;
             justify-content: space-between;
-            font-size: 5pt;
+            font-size: 4pt;
         }
 
         .tracker {
             display: flex;
             align-items: center;
-            gap: 2px;
+            gap: 1px;
         }
 
         .tracker-label {
             text-transform: uppercase;
-            font-size: 4pt;
+            font-size: 3pt;
             color: #666;
         }
 
@@ -165,8 +165,8 @@
         }
 
         .dot {
-            width: 6px;
-            height: 6px;
+            width: 5px;
+            height: 5px;
             border: 1px solid #8b7355;
             border-radius: 50%;
             background: transparent;
@@ -174,16 +174,16 @@
 
         .quest-section {
             position: absolute;
-            top: 152px;
-            left: 6px;
-            right: 6px;
-            height: 36px;
-            padding: 3px;
+            top: 178px;
+            left: 4px;
+            right: 4px;
+            height: 50px;
+            padding: 2px;
         }
 
         .quest-text {
             font-style: italic;
-            font-size: 6pt;
+            font-size: 5.5pt;
             color: #4a3c28;
             text-align: center;
             line-height: 1.2;
@@ -191,32 +191,32 @@
 
         .magic-section {
             position: absolute;
-            top: 190px;
-            left: 6px;
-            right: 6px;
-            bottom: 28px;
+            top: 230px;
+            left: 4px;
+            right: 4px;
+            bottom: 32px;
             padding: 2px;
-            font-size: 5.5pt;
+            font-size: 5pt;
             line-height: 1.15;
             overflow: hidden;
         }
 
         .magic-title {
             font-weight: bold;
-            font-size: 6pt;
+            font-size: 5pt;
             margin-bottom: 1px;
             color: #4a3c28;
         }
 
         .magic-system {
-            font-size: 5pt;
+            font-size: 4.5pt;
             color: #666;
             font-style: italic;
             margin-bottom: 2px;
         }
 
         .magic-text {
-            font-size: 5pt;
+            font-size: 4.5pt;
             color: #333;
         }
 
@@ -226,14 +226,14 @@
 
         .improvements-section {
             position: absolute;
-            bottom: 4px;
-            left: 6px;
-            right: 6px;
+            bottom: 6px;
+            left: 4px;
+            right: 4px;
         }
 
         .improvements-header {
             text-align: center;
-            font-size: 4pt;
+            font-size: 3pt;
             text-transform: uppercase;
             letter-spacing: 0.5px;
             color: #666;
@@ -245,12 +245,12 @@
         .improvement-dots {
             display: flex;
             justify-content: center;
-            gap: 3px;
+            gap: 2px;
         }
 
         .improvement-dot {
-            width: 7px;
-            height: 7px;
+            width: 6px;
+            height: 6px;
             border: 1px solid #8b7355;
             border-radius: 50%;
             background: transparent;
@@ -284,9 +284,6 @@
             page-break-after: avoid;
         }
 
-        .page-break {
-            page-break-before: always;
-        }
     </style>
 </head>
 <body>
@@ -575,10 +572,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="page-break"></div>
-    <div class="print-container">
 
         <!-- Bearer of the Singing Sword -->
         <div class="theme-card">
@@ -865,10 +858,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="page-break"></div>
-    <div class="print-container">
 
         <!-- Mirror Adept -->
         <div class="theme-card">
@@ -1154,10 +1143,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="page-break"></div>
-    <div class="print-container">
 
         <!-- Fey-Touched Duelist -->
         <div class="theme-card">

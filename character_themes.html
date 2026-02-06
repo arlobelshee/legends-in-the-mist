@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legends in the Mist - Character Themes</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 0.5in;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .print-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 8.5in;
+            margin: 0 auto;
+        }
+
+        .theme-card {
+            width: 3.5in;
+            height: 5.5in;
+            background-image: url('theme background.png');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            position: relative;
+            page-break-inside: avoid;
+            font-size: 9pt;
+        }
+
+        .card-header {
+            position: absolute;
+            top: 4px;
+            left: 8px;
+            right: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 7pt;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .theme-type {
+            background: #d4c5a9;
+            padding: 2px 6px;
+            border: 1px solid #8b7355;
+            font-size: 6pt;
+        }
+
+        .might-level {
+            background: #c9a86c;
+            padding: 2px 6px;
+            border: 1px solid #8b7355;
+            font-size: 6pt;
+            color: #4a3c28;
+        }
+
+        .tags-section {
+            position: absolute;
+            top: 28px;
+            left: 12px;
+            right: 12px;
+            height: 175px;
+        }
+
+        .tags-header {
+            text-align: center;
+            font-size: 6pt;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #666;
+            margin-bottom: 4px;
+        }
+
+        .title-tag {
+            font-size: 14pt;
+            font-weight: bold;
+            text-align: center;
+            padding: 8px 4px;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 2px;
+        }
+
+        .title-tag::before {
+            content: '\u25C6';
+            color: #8b7355;
+            margin-right: 8px;
+            font-size: 8pt;
+        }
+
+        .title-tag::after {
+            content: '\u25C7';
+            color: #8b7355;
+            margin-left: 8px;
+            font-size: 8pt;
+        }
+
+        .power-tag {
+            text-align: center;
+            padding: 4px;
+            border-bottom: 1px solid #e0d5c5;
+            font-size: 9pt;
+        }
+
+        .power-tag::before {
+            content: '\u25C6';
+            color: #8b7355;
+            margin-right: 6px;
+            font-size: 6pt;
+        }
+
+        .weakness-tag {
+            text-align: center;
+            padding: 4px;
+            font-size: 9pt;
+            color: #8b4513;
+            font-style: italic;
+        }
+
+        .weakness-tag::before {
+            content: '\u25C7';
+            color: #8b4513;
+            margin-right: 6px;
+            font-size: 6pt;
+        }
+
+        .trackers {
+            position: absolute;
+            top: 208px;
+            left: 12px;
+            right: 12px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 6pt;
+        }
+
+        .tracker {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+        }
+
+        .tracker-label {
+            text-transform: uppercase;
+            font-size: 5pt;
+            color: #666;
+        }
+
+        .tracker-dots {
+            display: flex;
+            gap: 1px;
+        }
+
+        .dot {
+            width: 8px;
+            height: 8px;
+            border: 1px solid #8b7355;
+            border-radius: 50%;
+            background: transparent;
+        }
+
+        .quest-section {
+            position: absolute;
+            top: 232px;
+            left: 8px;
+            right: 8px;
+            height: 60px;
+            padding: 6px;
+        }
+
+        .quest-text {
+            font-style: italic;
+            font-size: 8pt;
+            color: #4a3c28;
+            text-align: center;
+            line-height: 1.3;
+        }
+
+        .magic-section {
+            position: absolute;
+            top: 295px;
+            left: 8px;
+            right: 8px;
+            bottom: 45px;
+            padding: 4px;
+            font-size: 6.5pt;
+            line-height: 1.25;
+            overflow: hidden;
+        }
+
+        .magic-title {
+            font-weight: bold;
+            font-size: 7pt;
+            margin-bottom: 2px;
+            color: #4a3c28;
+        }
+
+        .magic-system {
+            font-size: 6pt;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 3px;
+        }
+
+        .magic-text {
+            font-size: 6pt;
+            color: #333;
+        }
+
+        .magic-text p {
+            margin: 2px 0;
+        }
+
+        .improvements-section {
+            position: absolute;
+            bottom: 8px;
+            left: 8px;
+            right: 8px;
+        }
+
+        .improvements-header {
+            text-align: center;
+            font-size: 5pt;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #666;
+            border-top: 1px solid #ccc;
+            padding-top: 2px;
+            margin-bottom: 2px;
+        }
+
+        .improvement-dots {
+            display: flex;
+            justify-content: center;
+            gap: 4px;
+        }
+
+        .improvement-dot {
+            width: 10px;
+            height: 10px;
+            border: 1px solid #8b7355;
+            border-radius: 50%;
+            background: transparent;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .print-container {
+                gap: 10px;
+            }
+
+            .theme-card {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a3c28;
+            margin-bottom: 20px;
+            page-break-after: avoid;
+        }
+
+        .page-break {
+            page-break-before: always;
+        }
+    </style>
+</head>
+<body>
+    <h1>Legends in the Mist - Adventure Themes</h1>
+
+    <div class="print-container">
+        <!-- Ragebound Berserker -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Ragebound Berserker</div>
+                <div class="power-tag">Enraged Strength</div>
+                <div class="power-tag">Ignore Pain</div>
+                <div class="power-tag">Smash Through</div>
+                <div class="power-tag">Intimidating Presence</div>
+                <div class="weakness-tag">Cannot Back Down</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"Your fury is supernatural. What drives your rage? What would calm it forever?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Building Status (Intrinsic) - Rage</div>
+                <div class="magic-text">
+                    <p>Count tags used, add <b>Rage</b> at that tier. Getting hurt or insulted adds Rage-1. May resist as reaction.</p>
+                    <p><b>Rage 1-3:</b> Adds to attacks &amp; intimidation. Hinders careful/gentle.</p>
+                    <p><b>Rage-4:</b> MUST attack biggest threat. Devastating but unsubtle.</p>
+                    <p><b>Rage-5:</b> You ARE the Rage. Cannot tell friend from foe.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chaos Channeler -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Chaos Channeler</div>
+                <div class="power-tag">Reality Glitch</div>
+                <div class="power-tag">Wild Surge</div>
+                <div class="power-tag">Unlikely Success</div>
+                <div class="power-tag">Spell Twist</div>
+                <div class="weakness-tag">Backfires</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"Magic misbehaves around you. Do you embrace the chaos or struggle to control it?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Opposing Status (Chaos/Order)</div>
+                <div class="magic-text">
+                    <p>Count tags, add <b>Chaos</b> at that tier to environment. May resist.</p>
+                    <p><b>Chaos:</b> Helps randomness &amp; improvisation. Hinders precision &amp; planning.</p>
+                    <p><b>Chaos-4:</b> Reality gets weird. GM gains tags: <i>gravity suggestions, doors go elsewhere, time hiccups</i>.</p>
+                    <p><b>Order opposes Chaos:</b> Predictable actions add Order; they cancel.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cryomancer -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Cryomancer</div>
+                <div class="power-tag">Chill Out</div>
+                <div class="power-tag">Ice Sculpting</div>
+                <div class="power-tag">Numbing Chill</div>
+                <div class="power-tag">Frozen Armor</div>
+                <div class="weakness-tag">Rigid and Brittle</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"Cold is control. What do you fear losing control of? What warmth do you secretly long for?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Opposing Status (Cold/Heat)</div>
+                <div class="magic-text">
+                    <p>Count tags, add <b>Cold</b> at that tier to environment. May resist.</p>
+                    <p><b>Cold:</b> Helps control, barriers, precision. Hinders speed, flexibility.</p>
+                    <p><b>Cold-4:</b> Environment freezes. GM gains: <i>treacherous ice, bitter silence, brittle surfaces</i>.</p>
+                    <p><b>Heat opposes Cold:</b> Fire magic or warmth adds Heat; they cancel.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Elemental Savant -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Elemental Savant</div>
+                <div class="power-tag">Shape Element</div>
+                <div class="power-tag">Elemental Blast</div>
+                <div class="power-tag">Elemental Body</div>
+                <div class="power-tag">Environmental Control</div>
+                <div class="weakness-tag">Elemental Mindset</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"One element, taken too far. Which element defines you? What would make you let it consume you?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Building Status (Extrinsic) - Saturation</div>
+                <div class="magic-text">
+                    <p>Count tags, add <b>Saturation</b> at that tier (environment or self). May resist.</p>
+                    <p><b>Saturation:</b> Environment gains elemental tags. Helps/hinders accordingly.</p>
+                    <p><b>Saturation-4:</b> Element dominates. Becomes its own challenge.</p>
+                    <p><b>Saturation-5 (on you):</b> Full transformation. You ARE your element.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Name-Binder -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Name-Binder</div>
+                <div class="power-tag">True Name</div>
+                <div class="power-tag">Rename the World</div>
+                <div class="power-tag">Words That Cut</div>
+                <div class="power-tag">Naming Curse</div>
+                <div class="weakness-tag">Names Stick</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"Names define reality. What name do you fear being called? What name do you long to earn?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Building Status (Intrinsic) - Strain</div>
+                <div class="magic-text">
+                    <p>Count tags, add <b>Strain</b> at that tier. Big changes +1 tier. May resist.</p>
+                    <p><b>Strain 1-3:</b> Renamings work. Adds to identity actions.</p>
+                    <p><b>Strain-4:</b> Your name becomes unstable. Others can rename YOU.</p>
+                    <p><b>Strain-5:</b> You become what others name you. Identity is fluid.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Songweaver -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Songweaver</div>
+                <div class="power-tag">Battle Rhythm</div>
+                <div class="power-tag">Lullaby</div>
+                <div class="power-tag">Crescendo</div>
+                <div class="power-tag">Sonic Pulse</div>
+                <div class="weakness-tag">Needs to Be Heard</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"Music shapes space and emotion. What song haunts you? What melody are you searching for?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Opposing Status (Fast/Slow Tempo)</div>
+                <div class="magic-text">
+                    <p>Count tags, add <b>Tempo</b> (Fast or Slow) at that tier. May resist.</p>
+                    <p><b>Fast:</b> Helps quick actions, attacks. Hinders careful work.</p>
+                    <p><b>Slow:</b> Helps calm, defense. Hinders aggression.</p>
+                    <p><b>Tempo-4:</b> Scene dominated. Fast = frenzy. Slow = time crawls.</p>
+                    <p><b>Fast/Slow oppose:</b> They cancel each other out.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bearer of the Singing Sword -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Singing Sword</div>
+                <div class="power-tag">Dissonant Howl</div>
+                <div class="power-tag">Rhythmic Strike</div>
+                <div class="power-tag">Echoing Parry</div>
+                <div class="power-tag">Resonant Cleave</div>
+                <div class="weakness-tag">The Sword Has Opinions</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"The sword sings. What does it want? Do you serve the blade, or does it serve you?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Pet/Harmony - Dissonance</div>
+                <div class="magic-text">
+                    <p>The sword loves courage, hates cowardice, has opinions about honor.</p>
+                    <p><b>In Harmony:</b> Acting brave/honorable = +1 Power on attacks &amp; parries.</p>
+                    <p><b>Against Nature:</b> Retreating, deception, cruelty = +1 Dissonance.</p>
+                    <p><b>Dissonance-4:</b> Sword acts on its own. Sings at wrong times, refuses to cut, strikes wrong targets.</p>
+                    <p><b>Clear:</b> Give the sword glory - one brave charge, one honorable choice.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Beast Controller -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Beast Controller</div>
+                <div class="power-tag">Monstrous Companion</div>
+                <div class="power-tag">Shared Senses</div>
+                <div class="power-tag">Coordinated Assault</div>
+                <div class="power-tag">Devastating Charge</div>
+                <div class="weakness-tag">The Beast Is Willful</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"You command a massive beast. Is it a partner or a tool? What would make you set it free?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Pet/Harmony - Strain</div>
+                <div class="magic-text">
+                    <p>The beast wants to: hunt, protect territory, flee danger, eat.</p>
+                    <p><b>With Instinct:</b> Commands matching instinct = +1 Power.</p>
+                    <p><b>Against Instinct:</b> Hold still, ignore prey, approach fire = +1 Strain.</p>
+                    <p><b>Strain-4:</b> Beast follows instincts, not orders. May flee, attack wrong target, or refuse.</p>
+                    <p><b>Clear:</b> Let it do ONE thing it wants - chase, eat, scare, nap.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-break"></div>
+    <div class="print-container">
+
+        <!-- Beast-Hearted -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Beast-Hearted</div>
+                <div class="power-tag">Bestial Strength</div>
+                <div class="power-tag">Heightened Senses</div>
+                <div class="power-tag">Savage Leap</div>
+                <div class="power-tag">Predator's Instinct</div>
+                <div class="weakness-tag">Easily Provoked</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"You are not fully human anymore. What beast lives in your heart? What keeps you human?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Building Status (Intrinsic) - Ferality</div>
+                <div class="magic-text">
+                    <p>Count tags, add <b>Ferality</b> at that tier. Fighting adds Ferality-1. May resist.</p>
+                    <p><b>Ferality 1-3:</b> Adds to physical, senses, intimidation. Hinders patience.</p>
+                    <p><b>Ferality-4:</b> Act on instinct. Chase what runs, fight what challenges.</p>
+                    <p><b>Ferality-5:</b> Full beast. Immense power, but human concerns are gone.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Spirit Speaker -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Spirit Speaker</div>
+                <div class="power-tag">Call Spirits</div>
+                <div class="power-tag">Spirit Sight</div>
+                <div class="power-tag">Bargain with the Unseen</div>
+                <div class="power-tag">Channel Otherworldly Power</div>
+                <div class="weakness-tag">Haunted</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"Spirits always want something. What spirit follows you? What do you owe the unseen world?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Immediate Demands</div>
+                <div class="magic-text">
+                    <p>Spirits help but demand payment NOW.</p>
+                    <p><b>1 tag:</b> Small ask - tell a secret, break something, say my name 3x.</p>
+                    <p><b>2+ tags:</b> Big ask - give something valued, do something embarrassing.</p>
+                    <p><b>Refuse:</b> Spirit gets Annoyed-1. At Annoyed-4, spirits make noise, hide stuff, give bad advice loudly.</p>
+                    <p><b>Clear:</b> Finally give a spirit what it wants.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Doppelganger -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Doppelganger</div>
+                <div class="power-tag">Perfect Mimicry</div>
+                <div class="power-tag">Borrowed Faces</div>
+                <div class="power-tag">Social Infiltration</div>
+                <div class="power-tag">Voice and Mannerisms</div>
+                <div class="weakness-tag">Identity Drift</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"You are many people. Who is the real you? Whose face do you fear wearing?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Building Status (Intrinsic) - Confusion</div>
+                <div class="magic-text">
+                    <p>Count tags, add <b>Confusion</b> at that tier. May resist.</p>
+                    <p><b>Confusion 1-3:</b> Disguises are perfect. Adds to deception.</p>
+                    <p><b>Confusion-4:</b> Slip between faces without meaning to. GM can have you shift at awkward moments.</p>
+                    <p><b>Confusion-5:</b> Forget which face is real. You might BE who you're imitating.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Merchant of Impossible Goods -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Impossible Merchant</div>
+                <div class="power-tag">Produce Anything</div>
+                <div class="power-tag">Make a Deal</div>
+                <div class="power-tag">Twist the Fine Print</div>
+                <div class="power-tag">Unexpected Inventory</div>
+                <div class="weakness-tag">Owed Favors</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"Everything has a price. What price would you refuse to pay? What deal haunts you?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Immediate Price</div>
+                <div class="magic-text">
+                    <p>Produce impossible things; universe takes payment NOW.</p>
+                    <p><b>1 tag:</b> Small price - shoelaces untie, hair changes color, voice squeaks.</p>
+                    <p><b>2+ tags:</b> Big price - sword turns to flowers, map goes blank, gravity works funny.</p>
+                    <p>You can aim the price at something you don't care about, but the universe thinks irony is hilarious.</p>
+                    <p>Prices fade at end of scene. Embarrassment lasts forever.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mirror Adept -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Mirror Adept</div>
+                <div class="power-tag">Create Reflections</div>
+                <div class="power-tag">Swap Places</div>
+                <div class="power-tag">Reflect Attacks</div>
+                <div class="power-tag">Mirror Step</div>
+                <div class="weakness-tag">Fragile Anchors</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"You are never where you seem. Which reflection is the real you? What do the mirrors show?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Fragmentation - Reflections</div>
+                <div class="magic-text">
+                    <p>Create Reflections in mirrors, water, polished surfaces. Each is a story tag.</p>
+                    <p>See through them, swap places, have them take simple actions.</p>
+                    <p><b>Destroyed:</b> Breaking the surface shatters the reflection.</p>
+                    <p><b>3+ Reflections:</b> Confusion. Swap unintentionally, reflections act alone, forget which is real.</p>
+                    <p><b>Clear:</b> Dismiss reflections, consolidate to one true self.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shadowbound -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Shadowbound</div>
+                <div class="power-tag">Melt into Darkness</div>
+                <div class="power-tag">Shadow Strike</div>
+                <div class="power-tag">Umbral Escape</div>
+                <div class="power-tag">Cloak of Gloom</div>
+                <div class="weakness-tag">Light Burns</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"You are halfway gone. What pulls you toward the darkness? What keeps you in the light?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Opposing Status (Fading/Presence)</div>
+                <div class="magic-text">
+                    <p>Count tags, add <b>Fading</b> at that tier to yourself. May resist.</p>
+                    <p><b>Fading:</b> Helps stealth, escape. Hinders being noticed, getting help.</p>
+                    <p><b>Fading-4:</b> Barely there. Hard to hurt, hard to help. People forget you.</p>
+                    <p><b>Fading-5:</b> Become shadow. Powerful in dark, sunlight is agony.</p>
+                    <p><b>Presence opposes:</b> Light, touch, or someone calling your name adds Presence.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blood of Giants -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Blood of Giants</div>
+                <div class="power-tag">Titanic Strength</div>
+                <div class="power-tag">Earth-Shaking Blows</div>
+                <div class="power-tag">Unstoppable Advance</div>
+                <div class="power-tag">Towering Presence</div>
+                <div class="weakness-tag">Big Target</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"Ancient power lives in your body. What giant blood runs in your veins? What do you tower over?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Building Status (Extrinsic) - Shockwaves</div>
+                <div class="magic-text">
+                    <p>Count tags, add <b>Shockwaves</b> at that tier to environment. May resist.</p>
+                    <p><b>Shockwaves:</b> Ground trembles. Adds to power &amp; intimidation. Hinders balance, precision - for everyone.</p>
+                    <p><b>Shockwaves-4:</b> Environment unstable. Floors crack, things fall. Everyone struggles to stand - except you.</p>
+                    <p><b>Clear:</b> Reduce by 1 when not stomping. Move to new area = reset.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Iron Defender -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Iron Defender</div>
+                <div class="power-tag">Shield Wall</div>
+                <div class="power-tag">Hold the Line</div>
+                <div class="power-tag">Bodyguard</div>
+                <div class="power-tag">Brace for Impact</div>
+                <div class="weakness-tag">Slow to Reposition</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"You decide where the line is. What will you never let pass? What would make you abandon your post?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Commitment</div>
+                <div class="magic-text">
+                    <p>Your defense only works where you <b>commit</b>. Half-measures = nothing.</p>
+                    <p><b>Declare:</b> At scene start, say what you protect: person, doorway, area, object.</p>
+                    <p><b>While Committed:</b> Defense is extraordinary. Stop impossible attacks. Hold against any odds.</p>
+                    <p><b>Break:</b> Moving or protecting something else breaks it COMPLETELY. Must declare again.</p>
+                    <p>You cannot protect two things at once. Enemies WILL make you choose.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-break"></div>
+    <div class="print-container">
+
+        <!-- Pyromancer -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Pyromancer</div>
+                <div class="power-tag">Inferno Burst</div>
+                <div class="power-tag">Living Flame</div>
+                <div class="power-tag">Fire Immunity</div>
+                <div class="power-tag">Explosive Spread</div>
+                <div class="weakness-tag">Everything Burns</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"Fire always wants more. What are you afraid to burn? What would you burn the world to protect?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Opposing Status (Heat/Cold)</div>
+                <div class="magic-text">
+                    <p>Count tags, add <b>Heat</b> at that tier to environment. May resist.</p>
+                    <p><b>Heat:</b> Helps fire attacks, intimidation. Hinders precision, patience.</p>
+                    <p><b>Heat-4:</b> Wildfire. Everything burning, smoke everywhere, escape routes cut off. You're immune; allies aren't.</p>
+                    <p><b>Cold opposes Heat:</b> Ice, water, smothering adds Cold; they cancel.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Trick-Spark -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Trick-Spark</div>
+                <div class="power-tag">Illusions</div>
+                <div class="power-tag">Sudden Bursts</div>
+                <div class="power-tag">Misdirection</div>
+                <div class="power-tag">Spell Pranks</div>
+                <div class="weakness-tag">Unreliable</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"Magic loves a prank. What's the best joke you ever played? What prank went too far?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Building Status (Extrinsic) - Mischief</div>
+                <div class="magic-text">
+                    <p>Count tags, add <b>Mischief</b> at that tier to environment. May resist.</p>
+                    <p><b>Mischief:</b> Environment gains prank tags. Helps trickery. Hinders serious work - for everyone.</p>
+                    <p><b>Mischief-4:</b> Magic pranks EVERYONE. Nothing where it should be, gravity is a suggestion, cause and effect negotiable.</p>
+                    <p><b>Clear:</b> Let magic play harmlessly - sparkles, harmless pranks.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fey-Touched Duelist -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Fey-Touched Duelist</div>
+                <div class="power-tag">Blink Step</div>
+                <div class="power-tag">Enchanted Weapon</div>
+                <div class="power-tag">Impossible Grace</div>
+                <div class="power-tag">Duelist's Precision</div>
+                <div class="weakness-tag">Bound by Promises</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"Too fast, too clever, too bound. What promise weighs heaviest? What vow would you break?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Binding Words</div>
+                <div class="magic-text">
+                    <p>Every boast, promise, or challenge binds you IMMEDIATELY.</p>
+                    <p><b>Making:</b> "I'll defeat you" = can't retreat. "I won't hurt you" = can't attack.</p>
+                    <p><b>Keeping:</b> While doing what you promised = +1 Power.</p>
+                    <p><b>Bound-4:</b> Promises conflict and tangle. ("I'll protect you" + "I'll defeat him" = trouble when he grabs you.)</p>
+                    <p><b>End:</b> Fulfill exactly, or they release you from it.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Living Shadow -->
+        <div class="theme-card">
+            <div class="card-header">
+                <span class="theme-type">Magic</span>
+                <span class="might-level">Adventure</span>
+            </div>
+            <div class="tags-section">
+                <div class="tags-header">Power Tags &bull; Weakness Tags</div>
+                <div class="title-tag">Living Shadow</div>
+                <div class="power-tag">Detach from Body</div>
+                <div class="power-tag">Shadow Tendrils</div>
+                <div class="power-tag">Darkvision Everywhere</div>
+                <div class="power-tag">Slip Through Cracks</div>
+                <div class="weakness-tag">Tethered to Darkness</div>
+            </div>
+            <div class="trackers">
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Improve</span>
+                </div>
+                <div class="tracker">
+                    <div class="tracker-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+                    <span class="tracker-label">Decay</span>
+                </div>
+            </div>
+            <div class="quest-section">
+                <div class="quest-text">"You are a creature of darkness. What secrets has your shadow learned? Can you trust it?"</div>
+            </div>
+            <div class="magic-section">
+                <div class="magic-system">Fragmentation - Separation</div>
+                <div class="magic-text">
+                    <p>Separate your shadow from your body. Both can act. Each is a story tag.</p>
+                    <p>Shadow scouts, manipulates, attacks from darkness while body acts elsewhere.</p>
+                    <p><b>Drift:</b> Each separation = +1 Drift.</p>
+                    <p><b>Drift-4:</b> Body and shadow act at cross purposes. Shadow has own goals, hides info, refuses to rejoin.</p>
+                    <p><b>Clear:</b> Reunite in darkness. Feed shadow what it wants.</p>
+                </div>
+            </div>
+            <div class="improvements-section">
+                <div class="improvements-header">Theme Improvements</div>
+                <div class="improvement-dots">
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                    <div class="improvement-dot"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

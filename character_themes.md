@@ -49,6 +49,8 @@ Magic only works when you commit to a position, person, or action. Moving or cha
 
 *Your fury is supernatural.*
 
+**System:** Building Status (Intrinsic)
+
 **Power Tags**
 
 - Enraged Strength
@@ -59,8 +61,6 @@ Magic only works when you commit to a position, person, or action. Moving or cha
 **Weakness**
 
 - Cannot Back Down
-
-**Intrinsic Magic**
 
 **Way of Magic – Rage**\
 You gain **Rage** when you are hurt, insulted, or strike powerfully.
@@ -78,6 +78,8 @@ Enemies provoke you deliberately. Allies must redirect, calm, or make space for 
 
 *Magic misbehaves around you.*
 
+**System:** Pool/Spend
+
 **Power Tags**
 
 - Reality Glitch
@@ -88,8 +90,6 @@ Enemies provoke you deliberately. Allies must redirect, calm, or make space for 
 **Weakness**
 
 - Backfires
-
-**Extrinsic Magic**
 
 **Way of Magic – Instability**\
 Each spell adds **Instability**.
@@ -109,6 +109,8 @@ Magic reacts emotionally to danger, stress, and drama.
 
 *Cold is control.*
 
+**System:** Building Status (Extrinsic)
+
 **Power Tags**
 
 - Chill Out
@@ -119,8 +121,6 @@ Magic reacts emotionally to danger, stress, and drama.
 **Weakness**
 
 - Rigid and Brittle
-
-**Extrinsic Magic**
 
 **Way of Magic – Cold Build**\
 Cryomancy creates **Cold** equal to the number of cryomancy tags used in the effect.
@@ -138,6 +138,8 @@ The battlefield grows silent, slippery, and fragile.
 
 *One element, taken too far.*
 
+**System:** Building Status (Extrinsic)
+
 **Power Tags**
 
 - Shape Element
@@ -148,8 +150,6 @@ The battlefield grows silent, slippery, and fragile.
 **Weakness**
 
 - Elemental Mindset
-
-**Extrinsic Magic**
 
 **Way of Magic – Saturation**\
 Each elemental use adds **Saturated** equal to the number of Elemental Savant tags you apply.
@@ -166,6 +166,8 @@ The environment increasingly behaves like your element.
 ## Name-Binder
 
 *Names define reality.*
+
+**System:** Building Status (Intrinsic)
 
 **Power Tags**
 
@@ -192,6 +194,8 @@ People remember what they are *called*, not what they were.
 
 *Music shapes space and emotion.*
 
+**System:** Building Status (Extrinsic)
+
 **Power Tags**
 
 - Battle Rhythm
@@ -202,8 +206,6 @@ People remember what they are *called*, not what they were.
 **Weakness**
 
 - Needs to Be Heard
-
-**Extrinsic Magic**
 
 **Way of Magic – Tempo**\
 Your music establishes **Tempo**.
@@ -221,7 +223,9 @@ Silence, noise, and interruptions matter deeply.
 
 ## Bearer of the Singing Sword
 
-*The sword sings. You don’t have to.*
+*The sword sings. You don't have to.*
+
+**System:** Pet/Harmony
 
 **Power Tags**
 
@@ -233,8 +237,6 @@ Silence, noise, and interruptions matter deeply.
 **Weakness**
 
 - The Sword Has Opinions
-
-**Pet magic**
 
 **Way of Magic – Harmony**\
 Acting in harmony with the sword strengthens effects.\
@@ -251,6 +253,8 @@ The blade reacts to emotions, not tactics.
 
 *You command a massive, monstrous beast.*
 
+**System:** Pet/Harmony
+
 **Power Tags**
 
 - Monstrous Companion
@@ -261,8 +265,6 @@ The blade reacts to emotions, not tactics.
 **Weakness**
 
 - The Beast Is Willful
-
-**Pet magic**
 
 **Way of Magic – Control Strain**\
 Commands generate **Strain**.
@@ -278,6 +280,8 @@ The beast reacts emotionally to fear, pain, and threats.
 
 *You are many people.*
 
+**System:** Debt/Bargain
+
 **Power Tags**
 
 - Perfect Mimicry
@@ -288,8 +292,6 @@ The beast reacts emotionally to fear, pain, and threats.
 **Weakness**
 
 - Identity Drift
-
-**Intrinsic Magic**
 
 **Way of Magic – Masks**\
 Each persona is a **Mask**.
@@ -305,6 +307,8 @@ NPCs react to who they *think* you are.
 ## Merchant of Impossible Goods
 
 *Everything has a price.*
+
+**System:** Debt/Bargain
 
 **Power Tags**
 
@@ -332,6 +336,8 @@ The universe enforces bargains relentlessly.
 
 *You are never where you seem.*
 
+**System:** Fragmentation
+
 **Power Tags**
 
 - Create Reflections
@@ -356,6 +362,8 @@ Reflections may act independently or be targeted.
 ## Shadowbound
 
 *You are halfway gone.*
+
+**System:** Building Status (Intrinsic)
 
 **Power Tags**
 
@@ -382,6 +390,8 @@ You risk losing touch with the physical world.
 
 *Ancient power lives in your body.*
 
+**System:** Building Status (Extrinsic)
+
 **Power Tags**
 
 - Titanic Strength
@@ -393,7 +403,7 @@ You risk losing touch with the physical world.
 
 - Big Target
 
-**Way of Magic – Imbalance**\
+**Way of Magic – Shockwaves**\
 Massive actions create **Shockwaves**.
 
 - Nearby creatures and structures are affected.
@@ -406,6 +416,8 @@ Subtlety is difficult; everything notices you.
 ## Iron Defender
 
 *You decide where the line is.*
+
+**System:** Commitment
 
 **Power Tags**
 
@@ -433,6 +445,8 @@ You cannot save everyone at once.
 
 *Fire always wants more.*
 
+**System:** Building Status (Extrinsic)
+
 **Power Tags**
 
 - Inferno Burst
@@ -457,6 +471,8 @@ Fire reshapes the battlefield permanently.
 ## Trick-Spark
 
 *Magic loves a prank.*
+
+**System:** Pool/Spend
 
 **Power Tags**
 
@@ -484,12 +500,14 @@ Magic responds with humor, irony, and chaos.
 
 *Too fast, too clever, too bound.*
 
+**System:** Debt/Bargain
+
 **Power Tags**
 
 - Blink Step
 - Enchanted Weapon
 - Impossible Grace
-- Duelist’s Precision
+- Duelist's Precision
 
 **Weakness**
 
@@ -509,6 +527,8 @@ Social rules and wordplay carry real weight.
 ## Living Shadow
 
 *You are a creature of darkness.*
+
+**System:** Fragmentation
 
 **Power Tags**
 

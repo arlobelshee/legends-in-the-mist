@@ -21,13 +21,13 @@ A status accumulates on you or the environment. At threshold, something dramatic
 - **Intrinsic Building:** Status accumulates on you. At threshold (4), you gain dramatic power with constraints. At your limit (5), you transform—incredibly powerful but no longer fully yourself.
 - **Extrinsic Building:** Status accumulates on the environment as story tags. At threshold (4), the environment transforms and becomes its own challenge.
 
-**Standard Rule:** Gain 1 status per power tag you use from this theme.
+**Standard Rule:** Count the power tags you use from this theme. Add a status at that tier (using 3 tags = add tier-3 status). You may resist this as a reaction if you have time and desire—but the magic still wants out.
 
 ## Opposing Status
 
 Two poles exist in tension. Using one builds that status; the opposite cancels it out. Both poles have uses—the question is which dominates the scene.
 
-**Standard Rule:** Statuses on the same axis cancel. Remove tiers from the greater equal to the tier of the lesser.
+**Standard Rule:** Count the power tags you use from this theme. Add a status at that tier to the environment. You may resist this as a reaction if you have time and desire. Statuses on the same axis cancel—remove tiers from the greater equal to the tier of the lesser.
 
 ## Pet/Harmony
 
@@ -85,7 +85,7 @@ Magic only works when you commit to a position, person, or action. Your protecti
 - Cannot Back Down
 
 **Way of Magic – Rage**
-You gain 1 **Rage** each time you use a Ragebound power tag, get hurt, or get insulted.
+When you use Ragebound power tags, count them and add **Rage** at that tier. Getting hurt or insulted also adds Rage-1. You may resist as a reaction if you have time.
 
 - **Rage-1 to 3:** Rage adds to physical attacks and intimidation. Rage hinders careful, patient, or gentle actions.
 - **Rage-4 (Threshold):** You MUST attack the biggest threat you can see. Your attacks are devastating but you can't hold back or be subtle.
@@ -115,7 +115,7 @@ Enemies will try to provoke you. Allies need to point you at the right targets.
 - Backfires
 
 **Way of Magic – Chaos**
-Each time you use a Chaos Channeler power tag, add 1 **Chaos** to the environment.
+When you use Chaos Channeler power tags, count them and add **Chaos** at that tier to the environment. You may resist as a reaction if you have time.
 
 - **Chaos status:** Helps any action that embraces randomness, improvisation, or the unexpected. Hinders any action that requires precision, planning, or reliability.
 - **Chaos-4 (Threshold):** Reality gets weird. The GM gains story tags representing the strangeness: *gravity suggestions*, *doors go elsewhere*, *time hiccups*. These affect everyone.
@@ -145,7 +145,7 @@ The weirder things get, the more you thrive—but your allies might not.
 - Rigid and Brittle
 
 **Way of Magic – Cold**
-Each time you use a Cryomancer power tag, add 1 **Cold** to the environment.
+When you use Cryomancer power tags, count them and add **Cold** at that tier to the environment. You may resist as a reaction if you have time.
 
 - **Cold status:** Helps actions involving control, barriers, slowing enemies, and precision. Hinders actions requiring speed, flexibility, or warmth.
 - **Cold-4 (Threshold):** The environment freezes. The GM gains story tags: *treacherous ice*, *bitter silence*, *brittle surfaces*. Movement becomes difficult for everyone except you.
@@ -175,7 +175,7 @@ The battlefield grows silent and still. Warmth becomes precious.
 - Elemental Mindset
 
 **Way of Magic – Saturation**
-Each time you use an Elemental Savant power tag, add 1 **Saturation** to the environment (or contain it on yourself).
+When you use Elemental Savant power tags, count them and add **Saturation** at that tier to the environment (or contain it on yourself). You may resist as a reaction if you have time.
 
 - **Saturation status:** The environment gains story tags matching your element. Saturation helps actions using your element; hinders actions opposing it.
 - **Saturation-4 (Threshold):**
@@ -207,7 +207,7 @@ The environment increasingly acts like your element. Everything changes to match
 - Names Stick
 
 **Way of Magic – Identity Strain**
-You gain 1 **Strain** when you rename something. Bigger changes (a person's nature vs. an object's appearance) may add 2.
+When you use Name-Binder power tags, count them and add **Strain** at that tier. Bigger changes (a person's nature vs. an object's appearance) add +1 tier. You may resist as a reaction if you have time.
 
 - **Strain-1 to 3:** Your renamings work perfectly. Strain adds to actions where names and identity matter.
 - **Strain-4 (Threshold):** Your own name becomes unstable. Others can rename YOU, and it works. You might answer to the wrong name or forget details about yourself.
@@ -237,7 +237,7 @@ People remember what they are *called*, not what they were. Names have power ove
 - Needs to Be Heard
 
 **Way of Magic – Tempo**
-Your music creates **Tempo** in the environment. Choose Fast or Slow each time you use a Songweaver power tag.
+When you use Songweaver power tags, count them and add **Tempo** (Fast or Slow, your choice) at that tier to the environment. You may resist as a reaction if you have time.
 
 - **Fast Tempo:** Helps quick actions, attacks, and bold moves. Hinders careful, calm, or patient actions.
 - **Slow Tempo:** Helps calm actions, defense, and careful work. Hinders quick or aggressive actions.
@@ -328,7 +328,7 @@ The beast remembers who hurt it and who fed it. It has feelings about everyone.
 - Easily Provoked
 
 **Way of Magic – Ferality**
-You gain 1 **Ferality** each time you use a Beast-Hearted power tag, hunt, or fight.
+When you use Beast-Hearted power tags, count them and add **Ferality** at that tier. Hunting or fighting also adds Ferality-1. You may resist as a reaction if you have time.
 
 - **Ferality-1 to 3:** Ferality adds to physical actions, senses, and intimidation. Ferality hinders patience, etiquette, and fine manipulation.
 - **Ferality-4 (Threshold):** You act on instinct. Incredibly powerful—but you think like an animal. Chase what runs, fight what challenges you, protect your pack.
@@ -388,7 +388,7 @@ Spirits are always watching. They have opinions about everything and everyone.
 - Identity Drift
 
 **Way of Magic – Confusion**
-You gain 1 **Confusion** each time you change faces or use a Doppelganger power tag.
+When you use Doppelganger power tags, count them and add **Confusion** at that tier. You may resist as a reaction if you have time.
 
 - **Confusion-1 to 3:** Your disguises are perfect. Confusion adds to any action where being someone else helps.
 - **Confusion-4 (Threshold):** You slip between faces without meaning to. The GM can have you accidentally shift at awkward moments, or use the wrong voice.
@@ -478,7 +478,7 @@ More reflections means more options—but also more targets and more confusion.
 - Light Burns
 
 **Way of Magic – Fading**
-Each time you use a Shadowbound power tag, add 1 **Fading** to yourself.
+When you use Shadowbound power tags, count them and add **Fading** at that tier to yourself. You may resist as a reaction if you have time.
 
 - **Fading status:** Helps stealth, escape, and slipping through. Hinders being noticed, getting help, and affecting the physical world.
 - **Fading-4 (Threshold):** You're barely there. Incredibly hard to hurt—but allies' aid barely reaches you. People forget you're there mid-conversation. Story tags: *half-real*, *slipping away*.
@@ -509,7 +509,7 @@ Shadows are your home. But the more you fade, the less real you become. Your all
 - Big Target
 
 **Way of Magic – Shockwaves**
-Each time you use a Blood of Giants power tag, add 1 **Shockwaves** to the environment.
+When you use Blood of Giants power tags, count them and add **Shockwaves** at that tier to the environment. You may resist as a reaction if you have time.
 
 - **Shockwaves status:** The ground trembles. Shockwaves add to intimidation and raw power actions. Shockwaves hinder balance, precision, and delicate work—for everyone.
 - **Shockwaves-4 (Threshold):** The environment becomes unstable. The GM gains story tags: *cracking floor*, *falling debris*, *nothing stands steady*. Everyone has trouble standing—except you.
@@ -568,7 +568,7 @@ You cannot save everyone at once. But what you commit to, nothing can touch.
 - Everything Burns
 
 **Way of Magic – Heat**
-Each time you use a Pyromancer power tag, add 1 **Heat** to the environment.
+When you use Pyromancer power tags, count them and add **Heat** at that tier to the environment. You may resist as a reaction if you have time.
 
 - **Heat status:** Fire spreads and builds. Heat helps fire attacks, intimidation, and destruction. Heat hinders precision, patience, and anything that doesn't like being on fire.
 - **Heat-4 (Threshold):** Wildfire. The GM gains story tags: *everything burning*, *smoke everywhere*, *escape routes cut off*. The fire is its own challenge. You're immune; your allies aren't.
@@ -598,7 +598,7 @@ What you burn stays burned. Fire reshapes the battlefield permanently.
 - Unreliable
 
 **Way of Magic – Mischief**
-Each time you use a Trick-Spark power tag, add 1 **Mischief** to the environment.
+When you use Trick-Spark power tags, count them and add **Mischief** at that tier to the environment. You may resist as a reaction if you have time.
 
 - **Mischief status:** The environment gains story tags representing pranks and coincidences: *slippery floors*, *things in wrong places*, *convenient distractions*. Mischief helps creative improvisation and trickery. Mischief hinders serious, careful, or dignified actions—for everyone.
 - **Mischief-4 (Threshold):** Magic is pranking EVERYONE. The GM gains major story tags: *nothing is where it should be*, *gravity is a suggestion*, *cause and effect are negotiable*. The pranks aren't malicious, but they're relentless.

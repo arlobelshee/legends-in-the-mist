@@ -516,13 +516,16 @@ Subtlety is difficult; everything notices you. Ceilings have load limits.
 - Slow to Reposition
 
 **Way of Magic – Commitment**\
-Defense only works where you **commit**.
+Your defense only works where you **commit**. Half-measures provide nothing.
 
-- You must declare what you are protecting.
-- Moving breaks the protection.
+- At the start of each scene or when circumstances change, declare what you are protecting: a person, a doorway, an area, an object.
+- While committed, your defensive abilities are extraordinary. Attacks that would bypass normal defenses are stopped. You can hold against impossible odds.
+- Moving from your commitment, or trying to protect something else, breaks the protection entirely. You must recommit.
+- You cannot protect two things at once. Enemies will exploit this—threatening what you're not protecting, forcing impossible choices.
+- There is no "threshold" for this system—the constraint is the commitment itself. The magic is absolute while held, nothing while broken.
 
 **Narrative Constraint**\
-You cannot save everyone at once.
+You cannot save everyone at once. Enemies will make you choose.
 
 ---
 
@@ -575,13 +578,16 @@ Fire reshapes the battlefield permanently. What you burn stays burned.
 - Unreliable
 
 **Way of Magic – Misfire Pool**\
-Each spell adds **Misfire**.
+Each spell adds **Misfire** to your pool. The magic builds up, wanting to play.
 
-- You may spend Misfire to twist outcomes.
-- At **Misfire-4**, the GM spends it.
+- Misfire accumulates whether your spells succeed or fail. Magic just wants to happen.
+- You may spend Misfire to twist outcomes in your favor: turn a near-miss into a hit, add an unexpected effect, have something "coincidentally" go your way.
+- The twists are never quite what you expected. They work, but with a punchline. The guard slips on a banana peel. The lock opens but the door falls off.
+- At **Misfire-4**, the GM spends your pool instead of you. The twists still happen, but now magic is pranking everyone—including you.
+- Clear Misfire by letting magic play harmlessly: small illusions, sparks, harmless pranks that entertain without stakes.
 
 **Narrative Constraint**\
-Magic responds with humor, irony, and chaos.
+Magic responds with humor, irony, and chaos. It thinks everything is funny.
 
 ---
 

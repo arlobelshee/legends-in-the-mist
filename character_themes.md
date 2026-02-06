@@ -353,13 +353,15 @@ Spirits remember. They talk to each other. Your reputation in the spirit world m
 - Identity Drift
 
 **Way of Magic – Masks**\
-Each persona is a **Mask**.
+Each persona you adopt is a **Mask** that accumulates its own **Debt**.
 
-- \<AI: make this behave like the merchant of impossible goods and the spirit speaker>
-- At **Mask-3**, you forget which identity is truly yours.
+- Each mask remembers what it promised and who it owes. Track debts per persona.
+- NPCs, organizations, and obligations may call in a mask's debts—even when you're wearing a different face.
+- At **Mask-3** total (across all masks), identities blur. You may slip into the wrong persona, forget which is "real," or have masks' obligations conflict.
+- Clear debt by fulfilling a mask's obligations while wearing it, or by retiring a mask entirely (but its enemies and debts don't vanish—they just become harder to resolve).
 
 **Narrative Constraint**\
-NPCs react to who they *think* you are.
+NPCs react to who they *think* you are. Your masks have lives of their own.
 
 ---
 

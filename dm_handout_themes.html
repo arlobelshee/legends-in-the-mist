@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Theme Magic Quick Reference</title>
+  <style>
+    @page { size: letter; margin: 0.4in; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      font-size: 8pt;
+      line-height: 1.2;
+      columns: 3;
+      column-gap: 12px;
+    }
+    h1 {
+      font-size: 12pt;
+      text-align: center;
+      margin-bottom: 6px;
+      column-span: all;
+      border-bottom: 2px solid #333;
+      padding-bottom: 3px;
+    }
+    h2 {
+      font-size: 9pt;
+      background: #333;
+      color: white;
+      padding: 2px 4px;
+      margin: 6px 0 3px 0;
+      break-after: avoid;
+    }
+    h3 {
+      font-size: 8pt;
+      font-weight: bold;
+      margin: 4px 0 1px 0;
+      border-bottom: 1px solid #999;
+      break-after: avoid;
+    }
+    .system-rule {
+      background: #e8e8e8;
+      padding: 2px 4px;
+      margin-bottom: 4px;
+      font-style: italic;
+    }
+    .theme {
+      margin-bottom: 5px;
+      break-inside: avoid;
+    }
+    .status { font-weight: bold; }
+    .threshold { color: #c00; font-weight: bold; }
+    .limit { color: #600; font-weight: bold; }
+    .clear { color: #060; }
+    ul { margin-left: 10px; }
+    li { margin: 1px 0; }
+    .tags { font-size: 7pt; color: #555; }
+    .weakness { font-size: 7pt; color: #900; }
+    .note { font-size: 7pt; font-style: italic; }
+  </style>
+</head>
+<body>
+
+<h1>Theme Magic Quick Reference</h1>
+
+<h2>Building Status (Intrinsic)</h2>
+<div class="system-rule">Count power tags used → add status at that tier on self. Threshold=4, Limit=5.</div>
+
+<div class="theme">
+  <h3>Ragebound Berserker</h3>
+  <span class="status">Rage</span> — Also +1 from hurt/insulted<br>
+  <span class="threshold">@4:</span> MUST attack biggest threat, devastating but unsubtle<br>
+  <span class="limit">@5:</span> Can't tell friend from foe<br>
+  <span class="clear">Clear:</span> -1 when combat ends + catch breath, or trusted ally calms you
+</div>
+
+<div class="theme">
+  <h3>Name-Binder</h3>
+  <span class="status">Strain</span> — +1 tier for bigger changes (person vs object)<br>
+  <span class="threshold">@4:</span> Others can rename YOU and it works<br>
+  <span class="limit">@5:</span> You become whatever others name you<br>
+  <span class="clear">Clear:</span> -1 when called true name with meaning, or do something unmistakably you
+</div>
+
+<div class="theme">
+  <h3>Beast-Hearted</h3>
+  <span class="status">Ferality</span> — Also +1 from hunting/fighting<br>
+  <span class="threshold">@4:</span> Think like animal: chase runners, fight challengers, protect pack<br>
+  <span class="limit">@5:</span> Full beast, human concerns gone<br>
+  <span class="clear">Clear:</span> -1 when civilized (share food politely, calm conversation, wait patiently)
+</div>
+
+<div class="theme">
+  <h3>Doppelganger</h3>
+  <span class="status">Confusion</span><br>
+  <span class="threshold">@4:</span> Slip between faces unintentionally, wrong voice at wrong time<br>
+  <span class="limit">@5:</span> Forget which face is real, might BE the person imitated<br>
+  <span class="clear">Clear:</span> -1 when time as true self doing something only real you would do
+</div>
+
+<h2>Building Status (Extrinsic)</h2>
+<div class="system-rule">Count power tags → add status at that tier to environment (or contain on self). Threshold=4.</div>
+
+<div class="theme">
+  <h3>Elemental Savant</h3>
+  <span class="status">Saturation</span> — Environment gains element tags<br>
+  <span class="threshold">@4 Env:</span> Element dominates, GM gets major tags (living stone, howling wind, etc.)<br>
+  <span class="threshold">@4 Self:</span> Partial transform, +2 Power but think like element<br>
+  <span class="limit">@5 Self:</span> Full transformation, ARE the element<br>
+  <span class="clear">Clear:</span> -1 when opposite element appears or scene without using element
+</div>
+
+<div class="theme">
+  <h3>Blood of Giants</h3>
+  <span class="status">Shockwaves</span> — Ground trembles, hinders precision for all<br>
+  <span class="threshold">@4:</span> Unstable environment: cracking floor, falling debris. All have trouble standing except them<br>
+  <span class="clear">Clear:</span> -1/round when not stomping. New area = reset to 0
+</div>
+
+<div class="theme">
+  <h3>Trick-Spark</h3>
+  <span class="status">Mischief</span> — Pranks/coincidences as tags, hinders serious actions for all<br>
+  <span class="threshold">@4:</span> Magic pranks EVERYONE: nothing where it should be, gravity optional<br>
+  <span class="clear">Clear:</span> -1 when let magic play harmlessly (sparkles, harmless pranks)
+</div>
+
+<h2>Opposing Status</h2>
+<div class="system-rule">Count power tags → add status at that tier. Opposite axis cancels (remove lesser from greater).</div>
+
+<div class="theme">
+  <h3>Chaos Channeler</h3>
+  <span class="status">Chaos ↔ Order</span><br>
+  <span class="threshold">@4:</span> Reality weird: gravity suggestions, doors elsewhere, time hiccups<br>
+  <span class="clear">Clear:</span> -1/scene, or impose structure/routine. Order from deliberate predictable actions.
+</div>
+
+<div class="theme">
+  <h3>Cryomancer</h3>
+  <span class="status">Cold ↔ Heat</span> — Cold helps control/barriers, hinders speed/flexibility<br>
+  <span class="threshold">@4:</span> Freeze: treacherous ice, bitter silence. Movement hard except for them<br>
+  <span class="clear">Clear:</span> -1/scene, faster with warmth
+</div>
+
+<div class="theme">
+  <h3>Pyromancer</h3>
+  <span class="status">Heat ↔ Cold</span> — Heat helps destruction, hinders precision<br>
+  <span class="threshold">@4:</span> Wildfire: everything burning, smoke, escape cut off. Fire is own challenge<br>
+  <span class="clear">Clear:</span> -1 when fires put out or move to unburned area
+</div>
+
+<div class="theme">
+  <h3>Songweaver</h3>
+  <span class="status">Fast Tempo ↔ Slow Tempo</span><br>
+  Fast helps quick/bold, hinders careful. Slow helps calm/defense, hinders aggressive.<br>
+  <span class="threshold">@4:</span> Fast=frenzy, no time to think. Slow=time crawls, movements drag<br>
+  <span class="clear">Clear:</span> -1/round. Complete silence clears all.
+</div>
+
+<div class="theme">
+  <h3>Shadowbound</h3>
+  <span class="status">Fading ↔ Presence</span> — On self, not environment<br>
+  Fading helps stealth, hinders being noticed/affecting physical world<br>
+  <span class="threshold">@4:</span> Barely there, hard to hurt but aid can't reach, forgotten mid-conversation<br>
+  <span class="limit">@5:</span> Become shadow, sunlight agony, may not return<br>
+  <span class="clear">Clear:</span> -1 in bright light or when grabbed + name spoken with feeling. Presence from light/contact/name.
+</div>
+
+<h2>Pet/Harmony</h2>
+<div class="system-rule">With nature = +1 Power. Against nature = +1 Strain/Dissonance. @4 it acts on its own.</div>
+
+<div class="theme">
+  <h3>Bearer of the Singing Sword</h3>
+  <span class="status">Dissonance</span> — Sword loves courage, hates cowardice, opinions about honor<br>
+  <span class="threshold">@4:</span> Sword acts alone: sings when silence needed, refuses cuts, strikes own targets<br>
+  <span class="clear">Clear:</span> -1 when let sword do what it wants (brave charge, honorable choice, moment of glory)
+</div>
+
+<div class="theme">
+  <h3>Beast Controller</h3>
+  <span class="status">Strain</span> — Beast wants: hunt, protect territory, flee danger, eat<br>
+  <span class="threshold">@4:</span> Beast follows instincts: may flee, attack wrong target, refuse to move<br>
+  <span class="clear">Clear:</span> -1 when let beast do one thing it wants (chase, eat, scare, nap)
+</div>
+
+<h2>Immediate Price</h2>
+<div class="system-rule">Pay NOW. Small magic = small price. Big magic = big price. Never permanent.</div>
+
+<div class="theme">
+  <h3>Merchant of Impossible Goods</h3>
+  <span class="note">1 tag:</span> Shoelaces untie, hair color changes, voice squeaks<br>
+  <span class="note">2+ tags:</span> Sword→flowers, map goes blank, shoes swap, gravity funny<br>
+  Universe prefers irony. Prices fade end of scene. Embarrassment permanent.
+</div>
+
+<h2>Immediate Demands</h2>
+<div class="system-rule">Spirit helps but demands payment NOW. Refuse = Annoyed. @4 = SO distracting.</div>
+
+<div class="theme">
+  <h3>Spirit Speaker</h3>
+  <span class="status">Annoyed</span> (on spirits)<br>
+  <span class="note">1 tag asks:</span> Tell secret, break small thing, say name 3x<br>
+  <span class="note">2+ tag asks:</span> Give valued thing, do embarrassing thing, lend voice<br>
+  <span class="threshold">@4:</span> Spirits make noise, hide stuff, give bad advice loudly<br>
+  <span class="clear">Clear:</span> -2 when finally give a spirit what it wants
+</div>
+
+<h2>Binding Words</h2>
+<div class="system-rule">Promises bind IMMEDIATELY. +1 Power while keeping. Each promise = +1 Bound.</div>
+
+<div class="theme">
+  <h3>Fey-Touched Duelist</h3>
+  <span class="status">Bound</span><br>
+  "I'll defeat you" = can't retreat. "I won't hurt you" = physically can't attack.<br>
+  <span class="threshold">@4:</span> Promises conflict and tangle (protect you + defeat him = trouble when shield)<br>
+  <span class="clear">End:</span> When fulfilled exactly OR other person releases you
+</div>
+
+<h2>Fragmentation</h2>
+<div class="system-rule">Creates copies/parts. Each = story tag. @3+ they may act on own or get targeted.</div>
+
+<div class="theme">
+  <h3>Mirror Adept</h3>
+  <span class="status">Reflections</span> — In mirrors/water/polished surfaces. Can see through, swap, simple actions.<br>
+  Breaking surface destroys reflection. Enemies learn to break mirrors.<br>
+  <span class="threshold">@3+:</span> Accidental swaps, reflections act alone, forget which is real<br>
+  <span class="clear">Clear:</span> Dismiss reflections to reduce count
+</div>
+
+<div class="theme">
+  <h3>Living Shadow</h3>
+  <span class="status">Drift</span> — Shadow can scout/manipulate/attack from darkness while body acts elsewhere<br>
+  +1 Drift each separation or far-apart action<br>
+  <span class="threshold">@4:</span> Shadow pursues own goals, hides info, refuses to rejoin<br>
+  <span class="clear">Clear:</span> -2 reunite in darkness. -1 feed shadow (scare someone, learn secret, swallow light)
+</div>
+
+<h2>Commitment</h2>
+<div class="system-rule">Declare what you protect. While committed = extraordinary defense. Moving/changing = breaks completely.</div>
+
+<div class="theme">
+  <h3>Iron Defender</h3>
+  Declare: person, doorway, area, object<br>
+  While committed: stop attacks that bypass normal defense, hold impossible odds<br>
+  <span class="note">Cannot protect two things at once. Enemies WILL make you choose.</span>
+</div>
+
+</body>
+</html>

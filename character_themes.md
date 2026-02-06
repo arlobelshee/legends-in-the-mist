@@ -276,6 +276,65 @@ The beast reacts emotionally to fear, pain, and threats.
 
 ---
 
+## Beast-Hearted
+
+*You are not fully human anymore.*
+
+**System:** Building Status (Intrinsic)
+
+**Power Tags**
+
+- Bestial Strength
+- Heightened Senses
+- Savage Leap
+- Predator's Instinct
+
+**Weakness**
+
+- Easily Provoked
+
+**Way of Magic – Ferality**\
+Physical dominance and primal action adds **Ferality**.
+
+- Ferality boosts physical and sensory actions.
+- Ferality penalizes social grace, patience, and fine manipulation.
+- At **Ferality-4**, instinct overrides plans. You act on impulse.
+
+**Narrative Constraint**\
+You struggle with doors, etiquette, and patience. Civilization grates.
+
+---
+
+## Spirit Speaker
+
+*Spirits always want something.*
+
+**System:** Debt/Bargain
+
+**Power Tags**
+
+- Call Spirits
+- Spirit Sight
+- Bargain with the Unseen
+- Channel Otherworldly Power
+
+**Weakness**
+
+- Haunted
+
+**Way of Magic – Spirit Debt**\
+Each spirit you call or bargain with creates a **Debt**.
+
+- Debts are owed to specific spirits. Track who you owe.
+- Spirits may call in debts at inconvenient times, demanding favors, offerings, or actions.
+- At **Debt-3**, spirits argue over you, misbehave, or make conflicting demands.
+- Clear debt by fulfilling obligations, making offerings, or cleverly renegotiating terms.
+
+**Narrative Constraint**\
+Spirits remember. They talk to each other. Your reputation in the spirit world matters.
+
+---
+
 ## Doppelganger
 
 *You are many people.*

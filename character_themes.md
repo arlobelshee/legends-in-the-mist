@@ -382,14 +382,16 @@ NPCs react to who they *think* you are. Your masks have lives of their own.
 
 - Owed Favors
 
-**Way of Magic – Debt**\
-Each deal creates **Debt**.
+**Way of Magic – Cosmic Debt**\
+Each deal creates **Debt** owed to the universe, fate, or mysterious creditors.
 
-- Debt is a status. Each use increases debt by one. 
-- Debt may be claimed by NPCs, fate, or the world itself.
+- Debt accumulates as a general status. The universe tracks what you owe.
+- Creditors appear when convenient for them, not you—collectors, strange coincidences, or fate itself demanding payment.
+- At **Debt-3**, debts come due simultaneously. Multiple creditors arrive, or the universe arranges an inconvenient "payment opportunity."
+- Clear debt by fulfilling bargains, finding someone else to pay your price, or making a bigger deal that subsumes the smaller ones (though this just shifts the debt, not erases it). 
 
 **Narrative Constraint**\
-The universe enforces bargains relentlessly.
+The universe enforces bargains relentlessly. There is always a price.
 
 ---
 
@@ -575,13 +577,15 @@ Magic responds with humor, irony, and chaos.
 - Bound by Promises
 
 **Way of Magic – Fey Rules**\
-Each flashy move creates a **Promise**.
+Each flashy move, boast, or accepted challenge creates a **Promise** bound by fey law.
 
-- Breaking promises weakens magic.
-- Keeping them sharpens it.
+- Promises are specific and literal. "I will defeat you" and "I will not lose" are different promises with different escape clauses.
+- The fey magic strengthens when you move toward fulfilling promises. It weakens when you act against them or break your word.
+- At **Promise-3**, your obligations conflict or become impossible. The fey courts take notice. Someone may offer to "help" with your burden.
+- Clear promises by fulfilling them exactly as stated, or by finding a clever interpretation that technically satisfies the letter of your word.
 
 **Narrative Constraint**\
-Social rules and wordplay carry real weight.
+Social rules and wordplay carry real weight. Never say what you don't mean.
 
 ---
 

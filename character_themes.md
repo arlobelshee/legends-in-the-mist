@@ -12,6 +12,39 @@ The way of magic for each path includes how it works if contained and if redirec
 
 ---
 
+# Magic Systems Reference
+
+Each theme uses one of these underlying systems:
+
+## Building Status
+
+A status accumulates on you or the environment. At a threshold, complications occur.
+
+- **Intrinsic Building:** Status accumulates on you. At threshold, you lose control or transform.
+- **Extrinsic Building:** Status accumulates on the environment. At threshold, the environment becomes hazardous or changes state. You may choose to contain (take status on yourself) or redirect (push to environment).
+
+## Pet/Harmony
+
+You have a relationship with an entity (creature, spirit, or intelligent item). Acting in harmony strengthens effects. Acting against its nature builds Dissonance. At threshold, the entity acts independently or against you.
+
+## Debt/Bargain
+
+Each use creates a Debt owed to something (spirits, fate, the universe, personas). Debts can be called in by NPCs, the world, or fate. Clear debt by fulfilling obligations or clever negotiation. At threshold, debts come due simultaneously or creditors become hostile.
+
+## Pool/Spend
+
+A pool accumulates as you use magic. You may spend from the pool to amplify, twist, or shortcut effects. At threshold, the GM spends from your pool instead of you.
+
+## Fragmentation
+
+Using magic creates fragments, copies, or separated parts of yourself. These can act semi-independently. At threshold, fragments act at cross-purposes with you or become targets.
+
+## Commitment
+
+Magic only works when you commit to a position, person, or action. Moving or changing breaks the protection. You cannot protect everything at once.
+
+---
+
 ## Ragebound Berserker
 
 *Your fury is supernatural.*

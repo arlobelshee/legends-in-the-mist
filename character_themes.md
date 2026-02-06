@@ -27,9 +27,17 @@ A status accumulates on you or the environment. At a threshold, complications oc
 
 You have a relationship with an entity (creature, spirit, or intelligent item). Acting in harmony strengthens effects. Acting against its nature builds Dissonance. At threshold, the entity acts independently or against you.
 
-## Debt/Bargain
+## Immediate Price
 
-Each use creates a Debt owed to something (spirits, fate, the universe, personas). Debts can be called in by NPCs, the world, or fate. Clear debt by fulfilling obligations or clever negotiation. At threshold, debts come due simultaneously or creditors become hostile.
+When you use magic, you pay a price RIGHT NOW. Something you have transforms, vanishes, or breaks. The price is never money—it's always something inconvenient or funny. At threshold, the prices become ridiculous.
+
+## Immediate Demands
+
+When you use magic, something demands payment RIGHT NOW. It wants a weird favor done immediately—not later. Refusing builds up annoyed helpers who become distracting.
+
+## Binding Words
+
+Your words have power and bind you the moment you speak them. Promises, boasts, and challenges limit what you can do RIGHT NOW. At threshold, your words tangle you up so much you can barely act.
 
 ## Pool/Spend
 

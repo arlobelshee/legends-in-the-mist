@@ -181,12 +181,16 @@ The environment increasingly behaves like your element.
 - Names Stick
 
 **Way of Magic – Identity Strain**\
-Renaming things adds **Identity Strain**.
+Renaming things adds **Identity Strain** as reality pushes back against your changes.
 
-- At **Strain-3**, your own name and role begin to shift.
+- When you rename something, the new name becomes true. A coward named "Brave" gains courage; a door named "Wall" won't open.
+- Each renaming adds Strain. Bigger changes (renaming a person vs. an object, changing fundamental nature vs. surface traits) add more.
+- Strain makes your own identity unstable. You may answer to the wrong name, forget your own history, or find your role shifting.
+- At **Strain-3**, your own name and role begin to shift. Others may rename you, and it sticks. You may forget who you were.
+- Clear Strain by reinforcing your true name through ritual, repetition, or having others speak it with intent.
 
 **Narrative Constraint**\
-People remember what they are *called*, not what they were.
+People remember what they are *called*, not what they were. Be careful what you name yourself.
 
 ---
 
@@ -450,12 +454,16 @@ Reflections may act independently or be targeted. Enemies learn to shatter mirro
 - Light Burns
 
 **Way of Magic – Fading**\
-Shadow use adds **Fading**.
+Shadow use adds **Fading** as you become less real, more shadow.
 
-- At **Fading-4**, you are difficult to affect or assist.
+- Fading makes you harder to see, harder to touch, harder to remember. This can be useful.
+- As Fading increases, you slip through cracks, blend into darkness, and become difficult to harm.
+- But Fading also makes it harder for allies to help you, for healing to work, for people to notice you exist.
+- At **Fading-4**, you are difficult to affect—or assist. Allies' aid barely reaches you. You may be forgotten mid-conversation.
+- Clear Fading by spending time in bright light, engaging with the physical world, or having someone call you back by name with genuine emotion.
 
 **Narrative Constraint**\
-You risk losing touch with the physical world.
+You risk losing touch with the physical world. Sometimes people look right through you.
 
 ---
 
@@ -477,12 +485,16 @@ You risk losing touch with the physical world.
 - Big Target
 
 **Way of Magic – Shockwaves**\
-Massive actions create **Shockwaves**.
+Massive actions create **Shockwaves** that ripple outward through the environment.
 
-- Nearby creatures and structures are affected.
+- When you hit hard, stomp, or throw your weight around, Shockwaves build in the environment.
+- Shockwaves affect everyone and everything nearby—friend and foe, floor and ceiling.
+- You can direct Shockwaves somewhat (aim the tremor, focus the impact), but collateral effects are inevitable.
+- At **Shockwaves-4**, the environment becomes unstable. Structures crack, floors collapse, things fall. The area becomes dangerous for everyone.
+- Clear Shockwaves by letting the environment settle, or by moving to a new area (though you'll start building again).
 
 **Narrative Constraint**\
-Subtlety is difficult; everything notices you.
+Subtlety is difficult; everything notices you. Ceilings have load limits.
 
 ---
 
@@ -532,12 +544,16 @@ You cannot save everyone at once.
 - Everything Burns
 
 **Way of Magic – Escalation**\
-Each fire action escalates size or intensity.
+Each fire action escalates size or intensity. Fire always wants more.
 
-- You must actively reduce scale or accept collateral damage.
+- Fire builds on itself. Each use adds **Escalation** to the environment as flames spread, heat builds, and things catch.
+- You're immune to your own fire, but your allies aren't. Neither are buildings, treasures, or escape routes.
+- You can actively reduce scale by smothering flames, creating firebreaks, or pulling heat back into yourself (which has its own costs).
+- At **Escalation-4**, the fire becomes a wildfire—an environmental hazard that acts on its own, spreading, consuming, and cutting off options.
+- Clear Escalation by putting out fires (mundane or magical), moving to unburned areas, or waiting for fuel to run out.
 
 **Narrative Constraint**\
-Fire reshapes the battlefield permanently.
+Fire reshapes the battlefield permanently. What you burn stays burned.
 
 ---
 
